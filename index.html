@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+<h1> Title </h1>
+<div class="flex-large">
+  <nav>
+    <ul>
+      <li><a href="#">Menu Item</a></li>
+      <li><a href="#">Menu Item</a></li>
+      <li><a href="#">Menu Item</a></li>
+      <li><a href="#">Menu Item</a></li>
+      <li><a href="#">Menu Item</a></li>
+      <li><a href="#">Menu Item</a></li>
+      <li><a href="#">Menu Item</a></li>
+      <li><a href="#">Menu Item</a></li>
+      <li><a href="#">Menu Item</a></li>
+      <li><a href="#">Menu Item</a></li>
+      <li><a href="#">Menu Item</a></li>
+      <li><a href="#">Menu Item</a></li>
+    </ul>
+  </nav>
+  <main id="listings">
+    <section v-for="listing in listings">
+      <h2> {{ listing.title }} </h2>
+      <ul class="apps flex">
+        <li v-for="app in listing.apps">
+          <a :href="app.linkUrl">
+            <img :src="app.thumbImgUrl" alt="" width="64" height="64" />
+            <h3> {{ app.name }} </h3>
+            <div class="byline"> by {{ app.authorName }} </div>
+            <p class="description"> {{ app.description }} </p>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
