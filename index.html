@@ -1,44 +1,174 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" href="style.css">
-<script src="https://unpkg.com/vue@next"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App List</title>
+  <style>
+    /* Custom styles */
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-left img {
+    margin-right: 20px;
+  }
+
+  .header-right {
+    display: flex;
+  }
+
+  .header-right button {
+    margin-left: 10px;
+  }
+
+    body {
+      font-family: 'Roboto', sans-serif; /* Modern font */
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #fff;
+      color: #333;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+      font-family: 'Roboto', sans-serif; /* Modern font */
+      font-size: 2.5em;
+      color: #4a90e2;
+    }
+    
+    h2 {
+      margin: 10px 0 0;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif; /* Modern font */
+      font-size: 1.5em;
+      color: #000;
+    }
+
+    h3 {
+      font-family: 'Roboto', sans-serif; /* Modern font */
+      font-size: 1.2em;
+      color: #000;
+      text-align: center;
+    }
+    
+    #featured-apps,
+    #all-apps {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    .app {
+      width: 250px;
+      margin: 10px;
+      padding: 20px;
+      border: none; /* Removed border */
+      border-radius: 15px; /* Increased border radius for modern look */
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Added box shadow */
+      text-align: center;
+      background-color: #f9f9f9; /* Light background for the card */
+    }
+    .app h2  {
+      margin: 10px 0 0;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif; /* Modern font */
+      font-size: 1.1em;
+      color: #000;
+    }
+    .app p  {
+      margin: 10px 10 0;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif; /* Modern font */
+      font-size: 0.em;
+      color: #908585;
+    }
+    .app img {
+      max-width: 100px;
+      border-radius: 50%; /* Circular images */
+    }
+    
+    .app h2 {
+      margin-top: 10px;
+      font-size: 1.2em;
+      font-family: 'Roboto', sans-serif; /* Modern font */
+    }
+
+    .app a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4a90e2;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .app a:hover {
+      background-color: #357ebd;
+    }
+
+    img {
+      width: 150px; /* Adjust this value to change the size of the logo */
+    }
+    button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a90e2;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #357ebd;
+  }
+  </style>
 </head>
 <body>
-<h1> Title </h1>
-<div class="flex-large">
-  <nav>
-    <ul>
-      <li><a href="#">Menu Item</a></li>
-      <li><a href="#">Menu Item</a></li>
-      <li><a href="#">Menu Item</a></li>
-      <li><a href="#">Menu Item</a></li>
-      <li><a href="#">Menu Item</a></li>
-      <li><a href="#">Menu Item</a></li>
-      <li><a href="#">Menu Item</a></li>
-      <li><a href="#">Menu Item</a></li>
-      <li><a href="#">Menu Item</a></li>
-      <li><a href="#">Menu Item</a></li>
-      <li><a href="#">Menu Item</a></li>
-      <li><a href="#">Menu Item</a></li>
-    </ul>
-  </nav>
-  <main id="listings">
-    <section v-for="listing in listings">
-      <h2> {{ listing.title }} </h2>
-      <ul class="apps flex">
-        <li v-for="app in listing.apps">
-          <a :href="app.linkUrl">
-            <img :src="app.thumbImgUrl" alt="" width="64" height="64" />
-            <h3> {{ app.name }} </h3>
-            <div class="byline"> by {{ app.authorName }} </div>
-            <p class="description"> {{ app.description }} </p>
-          </a>
-        </li>
-      </ul>
+
+    <header>
+        <div class="header-left">
+          <img src="icons/placeholder-logo-5.png" alt="Logo Placeholder">
+
+        </div>
+        <div>
+            <DIV style="padding: 50PX;"></DIV>
+            <h1 >💰Your One Stop Shop for Gas Apps</h1>
+            <h2>No Ads. No Fluff. No Signup.</h2>
+        </div>
+        <div class="header-right">
+          <button class="contact-button">Contact</button>
+          <button class="disclosure-button">Disclosure</button>
+        </div>
+      </header>
+      
+  <main>
+    <h3>Featured Apps</h3>
+    <section id="featured-apps">
+      <!-- Featured Apps will be dynamically added here -->
+    </section>
+  
+    <h3>All Apps</h3>
+    <section id="all-apps">
+      <!-- All Apps will be dynamically added here -->
     </section>
   </main>
-</div>
-<script src="app.js"></script>
+  
+  <script src="scripts.js"></script>
 </body>
 </html>

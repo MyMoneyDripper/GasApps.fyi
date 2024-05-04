@@ -1,0 +1,115 @@
+[
+    {
+      "title": "BP",
+      "icon": "icons/bp.webp",
+      "description": "Find your nearest gas station and pay with your phone.",
+      "link": "https://www.bp.com/",
+      "featured": false,
+      "author": "BP Inc."
+    },
+    {
+      "title": "Chevron",
+      "icon": "icons/chevron.webp",
+      "description": "Find your nearest gas station and pay with your phone.",
+      "link": "https://www.chevron.com/",
+      "featured": false,
+      "author": "Chevron Corporation"
+    },
+    {
+      "title": "Circle K",
+      "icon": "icons/circlek.webp",
+      "description": "Find your nearest gas station and pay with your phone.",
+      "link": "https://www.circlek.com/",
+      "featured": false,
+      "author": "Circle K Stores Inc."
+    },
+    {
+      "title": "ExxonMobil",
+      "icon": "icons/exxonmobile.webp",
+      "description": "Find your nearest gas station and pay with your phone.",
+      "link": "https://www.exxon.com/",
+      "featured": false,
+      "author": "Exxon Mobil Corporation"
+    },
+    {
+      "title": "Fuel Forward",
+      "icon": "icons/fuelforward.webp",
+      "description": "Find your nearest gas station and pay with your phone.",
+      "link": "https://fuelforward.com/",
+      "featured": false,
+      "author": "Fuel Forward Inc."
+    },
+    {
+      "title": "Fuel Rewards",
+      "icon": "icons/fuelrewards.webp",
+      "description": "Find your nearest gas station and pay with your phone.",
+      "link": "https://www.fuelrewards.com/",
+      "featured": false,
+      "author": "Excentus Corporation"
+    },
+    {
+      "title": "GasBuddy",
+      "icon": "icons/gasbuddy.webp",
+      "description": "Find your nearest gas station and pay with your phone.",
+      "link": "https://www.gasbuddy.com/",
+      "featured": true,
+      "author": "GasBuddy Organization Inc."
+    },
+    {
+      "title": "Murphy",
+      "icon": "icons/murphy.webp",
+      "description": "Find your nearest gas station and pay with your phone.",
+      "link": "https://www.murphyusa.com/",
+      "featured": false,
+      "author": "Murphy USA Inc."
+    },
+    {
+      "title": "Speedway",
+      "icon": "icons/speedway.webp",
+      "description": "Find your nearest gas station and pay with your phone.",
+      "link": "https://www.speedway.com/",
+      "featured": false,
+      "author": "Speedway LLC"
+    },
+    {
+      "title": "Sunoco",
+      "icon": "icons/sunoco.webp",
+      "description": "Find your nearest gas station and pay with your phone.",
+      "link": "https://www.sunoco.com/",
+      "featured": false,
+      "author": "Sunoco LP"
+    },
+    {
+      "title": "Texaco",
+      "icon": "icons/texaco.webp",
+      "description": "Find your nearest gas station and pay with your phone.",
+      "link": "https://www.texaco.com/",
+      "featured": false,
+      "author": "Texaco Inc."
+    },
+    {
+      "title": "Thorntons",
+      "icon": "icons/thorntons.webp",
+      "description": "Find your nearest gas station and pay with your phone.",
+      "link": "https://www.thorntons.com/",
+      "featured": false,
+      "author": "Thorntons LLC"
+    },
+    {
+      "title": "Upside",
+      "icon": "icons/upside.webp",
+      "description": "Find your nearest gas station and pay with your phone.",
+      "link": "https://upside.com/",
+      "featured": true,
+      "author": "Upside Services Inc."
+    },
+    {
+      "title": "Valero",
+      "icon": "icons/valero.webp",
+      "description": "Find your nearest gas station and pay with your phone.",
+      "link": "https://www.valero.com/",
+      "featured": false,
+      "author": "Valero Energy Corporation"
+    }
+  ]
+  
