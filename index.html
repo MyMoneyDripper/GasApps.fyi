@@ -18,11 +18,14 @@
   }
 
   .header-left img {
-    margin-right: 20px;
+    margin-left: 150px;
+    padding-right: 2px;
+    text-align: right;
   }
 
   .header-right {
     display: flex;
+    margin-right: 150px;
   }
 
   .header-right button {
@@ -45,15 +48,15 @@
     h1 {
       margin: 0;
       font-family: 'Roboto', sans-serif; /* Modern font */
-      font-size: 2.5em;
+      font-size: 1.8em;
       color: #4a90e2;
     }
     
     h2 {
       margin: 10px 0 0;
-      font-weight: bold;
+
       font-family: 'Roboto', sans-serif; /* Modern font */
-      font-size: 1.5em;
+      font-size: 1.3em;
       color: #000;
     }
 
@@ -137,26 +140,38 @@
   button:hover {
     background-color: #357ebd;
   }
+  .header-left p
+  {
+       margin: 10px 0 0;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif; /* Modern font */
+      font-size: 1.1em;
+      color: #000;
+      
+  }
+
   </style>
 </head>
 <body>
 
     <header>
         <div class="header-left">
-          <img src="icons/placeholder-logo-5.png" alt="Logo Placeholder">
+          <img src="icons/gs.png" alt="Logo Placeholder" style="width: 50px; height: auto;">
+          <p style="text-align: left;"> Gas<br>apps</p>
+          
+          
+        </div>
 
-        </div>
-        <div>
-            <DIV style="padding: 50PX;"></DIV>
-            <h1 >💰Your One Stop Shop for Gas Apps</h1>
-            <h2>No Ads. No Fluff. No Signup.</h2>
-        </div>
         <div class="header-right">
           <button class="contact-button">Contact</button>
           <button class="disclosure-button">Disclosure</button>
         </div>
       </header>
-      
+      <div>
+        <DIV style="padding: 5PX;text-align:center"></DIV>
+        <h1 style="text-align: center;">💰Your One Stop Shop for Gas Apps</h1>
+        <h2 style="text-align: center;">No Ads. No Fluff. No Signup.</h2>
+      </div>
   <main>
     <h3>Featured Apps</h3>
     <section id="featured-apps">

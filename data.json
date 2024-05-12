@@ -4,7 +4,7 @@
       "icon": "icons/bp.webp",
       "description": "Find your nearest gas station and pay with your phone.",
       "link": "https://www.bp.com/",
-      "featured": false,
+      "featured": true,
       "author": "BP Inc."
     },
     {
@@ -28,7 +28,7 @@
       "icon": "icons/exxonmobile.webp",
       "description": "Find your nearest gas station and pay with your phone.",
       "link": "https://www.exxon.com/",
-      "featured": false,
+      "featured": true,
       "author": "Exxon Mobil Corporation"
     },
     {
@@ -44,7 +44,7 @@
       "icon": "icons/fuelrewards.webp",
       "description": "Find your nearest gas station and pay with your phone.",
       "link": "https://www.fuelrewards.com/",
-      "featured": false,
+      "featured": true,
       "author": "Excentus Corporation"
     },
     {
@@ -52,7 +52,7 @@
       "icon": "icons/gasbuddy.webp",
       "description": "Find your nearest gas station and pay with your phone.",
       "link": "https://www.gasbuddy.com/",
-      "featured": true,
+      "featured": false,
       "author": "GasBuddy Organization Inc."
     },
     {
@@ -76,7 +76,7 @@
       "icon": "icons/sunoco.webp",
       "description": "Find your nearest gas station and pay with your phone.",
       "link": "https://www.sunoco.com/",
-      "featured": false,
+      "featured": true,
       "author": "Sunoco LP"
     },
     {
