@@ -1,113 +1,105 @@
 [
     {
-      "title": "BP",
+      "title": "BPme Rewards",
       "icon": "icons/bp.webp",
-      "description": "Find your nearest gas station and pay with your phone.",
-      "link": "https://www.bp.com/",
-      "featured": true,
+      "description": "BPme Rewards is a program that lets you save on every gallon of fuel at bp and Amoco stations with no minimum spend and instant rewards.",
+      "link": "https://www.bp.com/en_us/united-states/home/products-and-services/bpme-rewards.html",
+      "featured": false,
       "author": "BP Inc."
     },
     {
       "title": "Chevron",
       "icon": "icons/chevron.webp",
-      "description": "Find your nearest gas station and pay with your phone.",
-      "link": "https://www.chevron.com/",
+      "description": "Earn 5 points per gallon to save between 5¢ to 50¢ off per gallon.",
+      "link": "https://www.chevrontexacorewards.com/",
       "featured": false,
       "author": "Chevron Corporation"
     },
     {
       "title": "Circle K",
       "icon": "icons/circlek.webp",
-      "description": "Find your nearest gas station and pay with your phone.",
-      "link": "https://www.circlek.com/",
+      "description": "Circle K offers Inner Circle members fuel rewards, food rewards and more.",
+      "link": "https://www.circlek.com/inner-circle/",
       "featured": false,
       "author": "Circle K Stores Inc."
     },
     {
       "title": "ExxonMobil",
       "icon": "icons/exxonmobile.webp",
-      "description": "Find your nearest gas station and pay with your phone.",
-      "link": "https://www.exxon.com/",
-      "featured": true,
-      "author": "Exxon Mobil Corporation"
+      "description": "Join the Exxon Mobil Rewards+™ program to earn points on fuel and convenience store purchases at Exxon™ and Mobil™ stations.",
+      "link": "https://www.exxon.com/en/rewards-program/",
+      "featured": false,
+      "author": "ExxonMobil Corporation"
     },
     {
       "title": "Fuel Forward",
       "icon": "icons/fuelforward.webp",
-      "description": "Find your nearest gas station and pay with your phone.",
+      "description": "Join the Fuel Rewards® program and the brands you know and love can help you save big at the pump.",
       "link": "https://fuelforward.com/",
       "featured": false,
-      "author": "Fuel Forward Inc."
-    },
-    {
-      "title": "Fuel Rewards",
-      "icon": "icons/fuelrewards.webp",
-      "description": "Find your nearest gas station and pay with your phone.",
-      "link": "https://www.fuelrewards.com/",
-      "featured": true,
-      "author": "Excentus Corporation"
+      "author": "Shell USA Inc."
     },
     {
       "title": "GasBuddy",
       "icon": "icons/gasbuddy.webp",
-      "description": "Find your nearest gas station and pay with your phone.",
+      "description": "GasBuddy is a free app that helps you find the best gas prices in your area and earn GasBack to redeem at the pump.",
       "link": "https://www.gasbuddy.com/",
-      "featured": false,
-      "author": "GasBuddy Organization Inc."
+      "featured": true,
+      "author": "GasBuddy LLC"
     },
     {
       "title": "Murphy",
       "icon": "icons/murphy.webp",
-      "description": "Find your nearest gas station and pay with your phone.",
-      "link": "https://www.murphyusa.com/",
+      "description": "Murphy USA offers fuel savings up to $1 off per gallon at the pump and deals on snacks, drinks and more with its Murphy Drive Rewards program.",
+      "link": "https://www.murphyusa.com/murphyusa/get-rewards/",
       "featured": false,
       "author": "Murphy USA Inc."
     },
     {
       "title": "Speedway",
       "icon": "icons/speedway.webp",
-      "description": "Find your nearest gas station and pay with your phone.",
-      "link": "https://www.speedway.com/",
+      "description": "Earn 50 points per dollar by using your Speedy Rewards® Mastercard® card for purchases at Speedway.",
+      "link": "https://www.speedway.com/club-rewards/",
       "featured": false,
       "author": "Speedway LLC"
     },
     {
       "title": "Sunoco",
       "icon": "icons/sunoco.webp",
-      "description": "Find your nearest gas station and pay with your phone.",
-      "link": "https://www.sunoco.com/",
-      "featured": true,
+      "description": "Sunoco offers various ways to earn and redeem gas rewards at participating stations.",
+      "link": "https://www.sunoco.com/rewards",
+      "featured": false,
       "author": "Sunoco LP"
     },
     {
       "title": "Texaco",
       "icon": "icons/texaco.webp",
-      "description": "Find your nearest gas station and pay with your phone.",
-      "link": "https://www.texaco.com/",
+      "description": "Earn 5 points per gallon to save between 5¢ to 50¢ off per gallon.",
+      "link": "https://www.chevrontexacorewards.com/",
       "featured": false,
       "author": "Texaco Inc."
     },
     {
-      "title": "Thorntons",
+      "title": "Refreshing Rewards",
       "icon": "icons/thorntons.webp",
-      "description": "Find your nearest gas station and pay with your phone.",
-      "link": "https://www.thorntons.com/",
+      "description": "Refreshing Rewards is a program that lets you earn points by buying tobacco products at Thorntons and redeem them for rewards.",
+      "link": "https://www.refreshingrewards.com/refreshing-rewards/",
       "featured": false,
       "author": "Thorntons LLC"
     },
     {
       "title": "Upside",
       "icon": "icons/upside.webp",
-      "description": "Find your nearest gas station and pay with your phone.",
-      "link": "https://upside.com/",
+      "description": "Upside is a free app that lets you earn cash back on your purchases at participating locations.",
+      "link": "https://upside.app.link/2PVBC",
       "featured": true,
       "author": "Upside Services Inc."
     },
     {
-      "title": "Valero",
+      "title": "ValeroPay+",
       "icon": "icons/valero.webp",
-      "description": "Find your nearest gas station and pay with your phone.",
-      "link": "https://www.valero.com/",
+      "description": "The ValeroPay+ app adds savings and convenience every day. Save money at the pump.",
+      "link": "https://www.valeropayplus.com/",
       "featured": false,
       "author": "Valero Energy Corporation"
     }
