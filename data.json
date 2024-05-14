@@ -34,8 +34,16 @@
     {
       "title": "Fuel Forward",
       "icon": "icons/fuelforward.webp",
-      "description": "Join the Fuel Rewards® program and the brands you know and love can help you save big at the pump.",
-      "link": "https://fuelforward.com/",
+      "description": "The Fuel Forward™ App is safe and for a limited time, you can save 20¢ per gallon on your first fill-up when you download the app.",
+      "link": "https://www.phillips66gas.com/mobile-app/",
+      "featured": false,
+      "author": "Phillipe 66"
+    },
+    {
+      "title": "Fuel Rewards",
+      "icon": "icons/fuelrewards.webp",
+      "description": "Join the Fuel Rewards® program and save 5c/gal with Complimentary Gold Status.",
+      "link": "https://www.shell.us/motorist/ways-to-save/fuel-rewards-program.html",
       "featured": false,
       "author": "Shell USA Inc."
     },
