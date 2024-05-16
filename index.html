@@ -3,121 +3,133 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gas Apps</title>
+  <title>GasApps.xys</title>
   <style>
     /* Custom styles */
-    header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .header-left {
-    display: flex;
-    align-items: center;
-  }
-
-  .header-left img {
-    margin-left: 150px;
-    padding-right: 2px;
-    text-align: right;
-  }
-
-  .header-right {
-    display: flex;
-    margin-right: 150px;
-  }
-
-  .header-right button {
-    margin-left: 10px;
-  }
-
-    body {
-      font-family: 'Roboto', sans-serif; /* Modern font */
-      margin: 0;
-      padding: 0;
+  @font-face {
+      font-family: 'Toboggan-Light';
+      src: url('fonts/Toboggan-Light.otf') format('opentype');
     }
-    
+  @font-face {
+    font-family: 'HelveticaNowText-Bold-Demo';
+    src: url('fonts/helveticanowtext-bold-demo.ttf') format('truetype');
+    font-weight: bold; /* If the font is bold */
+    font-style: normal; /* If the font is normal */
+  }
+
     header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       background-color: #fff;
       color: #333;
       padding: 20px;
-      text-align: center;
     }
-    
-    h1 {
-      margin: 0;
-      font-family: 'Roboto', sans-serif; /* Modern font */
-      font-size: 1.8em;
-      color: #4a90e2;
-    }
-    
-    h2 {
-      margin: 10px 0 0;
 
-      font-family: 'Roboto', sans-serif; /* Modern font */
-      font-size: 1.3em;
+    .header-left {
+      display: flex;
+      align-items: center;
+    }
+
+    .header-left img {
+      margin-left: 300px;
+      padding-right: 2px;
+      text-align: right;
+      
+    }
+
+    .header-right {
+      display: flex;
+      margin-right: 300px;
+    }
+
+    .header-right button {
+      margin-left: 10px;
+      font-family: 'Toboggan-Light', sans-serif;
+      text-align: center;
+     
+    
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h1{
+      font-family: 'HelveticaNowText-Bold-Demo', sans-serif;
+      text-align: center;
+      font-weight:bolder;
+      font-size: 2.3em;
+      color: #000000;
+      letter-spacing: -2px; 
+
+    }
+
+
+    h2 {
+      font-size: 1.0em;
       color: #000;
+      font-family: 'Toboggan-Light', sans-serif;
+      text-align: center;
     }
 
     h3 {
-      font-family: 'Roboto', sans-serif; /* Modern font */
       font-size: 1.2em;
       color: #000;
+      font-family: 'HelveticaNowText-Bold-Demo', sans-serif;
       text-align: center;
+      margin-top: 70px;
+      letter-spacing: -1px; 
     }
-    
+
     #featured-apps,
-    #all-apps {
+    #loyalty-programs,
+    #fuel-rewards {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       padding: 20px;
     }
-    
+
     .app {
       width: 250px;
       margin: 10px;
       padding: 20px;
-      border: none; /* Removed border */
-      border-radius: 15px; /* Increased border radius for modern look */
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Added box shadow */
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
       text-align: center;
-      background-color: #f9f9f9; /* Light background for the card */
+      background-color: #f9f9f9;
+
     }
-    .app h2  {
-      margin: 10px 0 0;
-      font-weight: bold;
-      font-family: 'Roboto', sans-serif; /* Modern font */
-      font-size: 1.1em;
-      color: #000;
-    }
-    .app p  {
-      margin: 10px 10 0;
-      font-weight: bold;
-      font-family: 'Roboto', sans-serif; /* Modern font */
-      font-size: 0.em;
-      color: #908585;
-    }
+
     .app img {
       max-width: 100px;
-      border-radius: 50%; /* Circular images */
+      border-radius: 50%;
     }
-    
+
     .app h2 {
       margin-top: 10px;
       font-size: 1.2em;
-      font-family: 'Roboto', sans-serif; /* Modern font */
+      font-weight: bold;
+    }
+
+    .app p {
+      font-size: 0.9em;
+      color: #908585;
     }
 
     .app a {
       display: inline-block;
       padding: 10px 20px;
-      background-color: #4a90e2;
-      color: #fff;
+      background-color: #ffffff;
+      color: #000000;
       text-decoration: none;
       border-radius: 5px;
       transition: background-color 0.3s;
+      border: 1px solid #000; 
+      
     }
 
     .app a:hover {
@@ -125,65 +137,88 @@
     }
 
     img {
-      width: 150px; /* Adjust this value to change the size of the logo */
+      width: 150px;
     }
+
     button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #4a90e2;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-
-  button:hover {
-    background-color: #357ebd;
-  }
-  .header-left p
-  {
-       margin: 10px 0 0;
-      font-weight: bold;
-      font-family: 'Roboto', sans-serif; /* Modern font */
-      font-size: 1.1em;
-      color: #000;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: transparent;
+      color: #000000;
+      cursor: pointer;
+      transition: background-color 0.3s;
       
-  }
 
+    }
+
+    button:hover {
+      background-color: #357ebd;
+    }
+
+    .header-left p {
+      margin: 0;
+      font-weight: bold;
+      font-size: 1.5em;
+      font-family: 'Toboggan-Light', sans-serif;
+    }
+    a{
+    
+      font-family: 'Toboggan-Light', sans-serif;
+      text-align: center;
+     
+    
+    }
+    @media (max-width: 768px) {
+     header {
+    flex-direction: column;
+    padding: 10px;
+    }
+
+    .header-left {
+    margin-bottom: 10px;
+   }
+
+    .header-right {
+    margin-top: 10px;
+    }
+
+    .header-left img {
+    margin-left: 0;
+     }
+
+   .header-right {
+    margin-right: 0;
+  }
+}
   </style>
 </head>
 <body>
-
-    <header>
-        <div class="header-left">
-          <img src="icons/gs.png" alt="Logo Placeholder" style="width: 50px; height: auto;">
-          <p style="text-align: left;"> Gas<br>apps</p>
-          
-          
-        </div>
-
-        <div class="header-right">
-          <button class="contact-button">Contact</button>
-          <button class="disclosure-button">Disclosure</button>
-        </div>
-      </header>
-      <div>
-        <DIV style="padding: 5PX;text-align:center"></DIV>
-        <h1 style="text-align: center;">💰Your One Stop Shop for Gas Apps</h1>
-        <h2 style="text-align: center;">No Ads. No Fluff. No Signup.</h2>
-      </div>
-  <main>
+  <header>
+    <div class="header-left">
+      <img src="icons/gs.png" alt="Logo" style="width: 30px; height: auto;">
+      <p>GasApps.xys</p>
+    </div>
+    <div class="header-right">
+      <button class="contact-button">Contact</button>
+      <button class="disclosure-button">Disclosure</button>
+    </div>
+  </header>
+  <div>
+    <h1>Your one stop shop for gas apps to help you save 💰</h1>
+    <h2>No Ads. No Fluff. No Signup.</h2>
+  </div>
+  <main style="margin-top: 70px;">
     <h3>Featured Apps</h3>
-    <section id="featured-apps">
-      <!-- Featured Apps will be dynamically added here -->
-    </section>
-  
-    <h3>Fuel Rewards Program</h3>
-    <section id="all-apps">
-      <!-- All Apps will be dynamically added here -->
-    </section>
+    <section id="featured-apps"></section>
+
+    <h3>Gas Station Loyalty Programs</h3>
+    <section id="loyalty-programs"></section>
+
+    <h3>Grocery Fuel Rewards Programs</h3>
+    <section id="fuel-rewards"></section>
   </main>
-  
-  <script src="scripts.js"></script>
+
+  <script src="scripts/scripts.js"></script>
 </body>
 </html>

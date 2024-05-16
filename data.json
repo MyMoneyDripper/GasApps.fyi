@@ -1,115 +1,114 @@
 [
-    {
-      "title": "BPme Rewards",
-      "icon": "icons/bp.webp",
-      "description": "BPme Rewards is a program that lets you save on every gallon of fuel at bp and Amoco stations with no minimum spend and instant rewards.",
-      "link": "https://www.bp.com/en_us/united-states/home/products-and-services/bpme-rewards.html",
-      "featured": false,
-      "author": "BP Inc."
-    },
-    {
-      "title": "Chevron",
-      "icon": "icons/chevron.webp",
-      "description": "Earn 5 points per gallon to save between 5¢ to 50¢ off per gallon.",
-      "link": "https://www.chevrontexacorewards.com/",
-      "featured": false,
-      "author": "Chevron Corporation"
-    },
-    {
-      "title": "Circle K",
-      "icon": "icons/circlek.webp",
-      "description": "Circle K offers Inner Circle members fuel rewards, food rewards and more.",
-      "link": "https://www.circlek.com/inner-circle/",
-      "featured": false,
-      "author": "Circle K Stores Inc."
-    },
-    {
-      "title": "ExxonMobil",
-      "icon": "icons/exxonmobile.webp",
-      "description": "Join the Exxon Mobil Rewards+™ program to earn points on fuel and convenience store purchases at Exxon™ and Mobil™ stations.",
-      "link": "https://www.exxon.com/en/rewards-program/",
-      "featured": false,
-      "author": "ExxonMobil Corporation"
-    },
-    {
-      "title": "Fuel Forward",
-      "icon": "icons/fuelforward.webp",
-      "description": "The Fuel Forward™ App is safe and for a limited time, you can save 20¢ per gallon on your first fill-up when you download the app.",
-      "link": "https://www.phillips66gas.com/mobile-app/",
-      "featured": false,
-      "author": "Phillipe 66"
-    },
-    {
-      "title": "Fuel Rewards",
-      "icon": "icons/fuelrewards.webp",
-      "description": "Join the Fuel Rewards® program and save 5c/gal with Complimentary Gold Status.",
-      "link": "https://www.shell.us/motorist/ways-to-save/fuel-rewards-program.html",
-      "featured": false,
-      "author": "Shell USA Inc."
-    },
-    {
-      "title": "GasBuddy",
-      "icon": "icons/gasbuddy.webp",
-      "description": "GasBuddy is a free app that helps you find the best gas prices in your area and earn GasBack to redeem at the pump.",
-      "link": "https://www.gasbuddy.com/",
-      "featured": true,
-      "author": "GasBuddy LLC"
-    },
-    {
-      "title": "Murphy",
-      "icon": "icons/murphy.webp",
-      "description": "Murphy USA offers fuel savings up to $1 off per gallon at the pump and deals on snacks, drinks and more with its Murphy Drive Rewards program.",
-      "link": "https://www.murphyusa.com/murphyusa/get-rewards/",
-      "featured": false,
-      "author": "Murphy USA Inc."
-    },
-    {
-      "title": "Speedway",
-      "icon": "icons/speedway.webp",
-      "description": "Earn 50 points per dollar by using your Speedy Rewards® Mastercard® card for purchases at Speedway.",
-      "link": "https://www.speedway.com/club-rewards/",
-      "featured": false,
-      "author": "Speedway LLC"
-    },
-    {
-      "title": "Sunoco",
-      "icon": "icons/sunoco.webp",
-      "description": "Sunoco offers various ways to earn and redeem gas rewards at participating stations.",
-      "link": "https://www.sunoco.com/rewards",
-      "featured": false,
-      "author": "Sunoco LP"
-    },
-    {
-      "title": "Texaco",
-      "icon": "icons/texaco.webp",
-      "description": "Earn 5 points per gallon to save between 5¢ to 50¢ off per gallon.",
-      "link": "https://www.chevrontexacorewards.com/",
-      "featured": false,
-      "author": "Texaco Inc."
-    },
-    {
-      "title": "Refreshing Rewards",
-      "icon": "icons/thorntons.webp",
-      "description": "Refreshing Rewards is a program that lets you earn points by buying tobacco products at Thorntons and redeem them for rewards.",
-      "link": "https://www.refreshingrewards.com/refreshing-rewards/",
-      "featured": false,
-      "author": "Thorntons LLC"
-    },
-    {
-      "title": "Upside",
-      "icon": "icons/upside.webp",
-      "description": "Upside is a free app that lets you earn cash back on your purchases at participating locations.",
-      "link": "https://upside.app.link/2PVBC",
-      "featured": true,
-      "author": "Upside Services Inc."
-    },
-    {
-      "title": "ValeroPay+",
-      "icon": "icons/valero.webp",
-      "description": "The ValeroPay+ app adds savings and convenience every day. Save money at the pump.",
-      "link": "https://www.valeropayplus.com/",
-      "featured": false,
-      "author": "Valero Energy Corporation"
-    }
-  ]
-  
+  {
+    "title": "BPme Rewards",
+    "icon": "icons/bp.webp",
+    "description": "BPme Rewards is a program that lets you save on every gallon of fuel at bp and Amoco stations with no minimum spend and instant rewards.",
+    "link": "https://www.bp.com/en_us/united-states/home/products-and-services/bpme-rewards.html",
+    "author": "BP Inc.",
+    "category": "Loyalty"
+  },
+  {
+    "title": "Chevron",
+    "icon": "icons/chevron.webp",
+    "description": "Earn 5 points per gallon to save between 5¢ to 50¢ off per gallon.",
+    "link": "https://www.chevrontexacorewards.com/",
+    "author": "Chevron Corporation",
+    "category": "Loyalty"
+  },
+  {
+    "title": "Circle K",
+    "icon": "icons/circlek.webp",
+    "description": "Circle K offers Inner Circle members fuel rewards, food rewards and more.",
+    "link": "https://www.circlek.com/inner-circle/",
+    "author": "Circle K Stores Inc.",
+    "category": "Loyalty"
+  },
+  {
+    "title": "ExxonMobil",
+    "icon": "icons/exxonmobile.webp",
+    "description": "Join the Exxon Mobil Rewards+™ program to earn points on fuel and convenience store purchases at Exxon™ and Mobil™ stations.",
+    "link": "https://www.exxon.com/en/rewards-program/",
+    "author": "ExxonMobil Corporation",
+    "category": "Loyalty"
+  },
+  {
+    "title": "Fuel Forward",
+    "icon": "icons/fuelforward.webp",
+    "description": "The Fuel Forward™ App is safe and for a limited time, you can save 20¢ per gallon on your first fill-up when you download the app.",
+    "link": "https://www.phillips66gas.com/mobile-app/",
+    "author": "Phillipe 66",
+    "category": "Featured"  
+  },
+  {
+    "title": "Fuel Rewards",
+    "icon": "icons/fuelrewards.webp",
+    "description": "Join the Fuel Rewards® program and save 5c/gal with Complimentary Gold Status.",
+    "link": "https://www.shell.us/motorist/ways-to-save/fuel-rewards-program.html",
+    "author": "Shell USA Inc.",
+    "category": "Loyalty"
+  },
+  {
+    "title": "GasBuddy",
+    "icon": "icons/gasbuddy.webp",
+    "description": "GasBuddy is a free app that helps you find the best gas prices in your area and earn GasBack to redeem at the pump.",
+    "link": "https://www.gasbuddy.com/",
+    "author": "GasBuddy LLC",
+    "category": "Featured"
+  },
+  {
+    "title": "Murphy",
+    "icon": "icons/murphy.webp",
+    "description": "Murphy USA offers fuel savings up to $1 off per gallon at the pump and deals on snacks, drinks and more with its Murphy Drive Rewards program.",
+    "link": "https://www.murphyusa.com/murphyusa/get-rewards/",
+    "author": "Murphy USA Inc.",
+    "category": "Loyalty"
+  },
+  {
+    "title": "Speedway",
+    "icon": "icons/speedway.webp",
+    "description": "Earn 50 points per dollar by using your Speedy Rewards® Mastercard® card for purchases at Speedway.",
+    "link": "https://www.speedway.com/club-rewards/",
+    "author": "Speedway LLC",
+    "category": "Loyalty"
+  },
+  {
+    "title": "Sunoco",
+    "icon": "icons/sunoco.webp",
+    "description": "Sunoco offers various ways to earn and redeem gas rewards at participating stations.",
+    "link": "https://www.sunoco.com/rewards",
+    "author": "Sunoco LP",
+    "category": "Loyalty"
+  },
+  {
+    "title": "Texaco",
+    "icon": "icons/texaco.webp",
+    "description": "Earn 5 points per gallon to save between 5¢ to 50¢ off per gallon.",
+    "link": "https://www.chevrontexacorewards.com/",
+    "author": "Texaco Inc.",
+    "category": "Loyalty"
+  },
+  {
+    "title": "Refreshing Rewards",
+    "icon": "icons/thorntons.webp",
+    "description": "Refreshing Rewards is a program that lets you earn points by buying tobacco products at Thorntons and redeem them for rewards.",
+    "link": "https://www.refreshingrewards.com/refreshing-rewards/",
+    "author": "Thorntons LLC",
+    "category": "Rewards"
+  },
+  {
+    "title": "Upside",
+    "icon": "icons/upside.webp",
+    "description": "Upside is a free app that lets you earn cash back on your purchases at participating locations.",
+    "link": "https://upside.app.link/2PVBC",
+    "author": "Upside Services Inc.",
+    "category": "Featured"
+  },
+  {
+    "title": "ValeroPay+",
+    "icon": "icons/valero.webp",
+    "description": "The ValeroPay+ app adds savings and convenience every day. Save money at the pump.",
+    "link": "https://www.valeropayplus.com/",
+    "author": "Valero Energy Corporation",
+    "category": "Rewards"
+  }
+]
