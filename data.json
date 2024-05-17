@@ -1,10 +1,41 @@
 [
+/* START OF FEATURED LIST */
+
+  {
+    "title": "Upside",
+    "icon": "icons/upside.webp",
+    "description": "Upside is a free app that lets you earn cash back on your purchases at participating locations.",
+    "link": "https://upside.app.link/2PVBC",
+    "author": "Upside Services Inc.",
+    "category": "Featured"
+  },
+  {
+    "title": "GasBuddy",
+    "icon": "icons/gasbuddy.webp",
+    "description": "GasBuddy is a free app that helps you find the best gas prices in your area and earn GasBack to redeem at the pump.",
+    "link": "https://www.gasbuddy.com/",
+    "author": "GasBuddy LLC",
+    "category": "Featured"
+  },
+  
+/* END OF FEATURED LIST */
+
+/* START OF FUEL LOYALTY LIST */
+
   {
     "title": "BPme Rewards",
     "icon": "icons/bp.webp",
     "description": "BPme Rewards is a program that lets you save on every gallon of fuel at bp and Amoco stations with no minimum spend and instant rewards.",
     "link": "https://www.bp.com/en_us/united-states/home/products-and-services/bpme-rewards.html",
     "author": "BP Inc.",
+    "category": "Loyalty"
+  },
+  {
+    "title": "ExxonMobil",
+    "icon": "icons/exxonmobile.webp",
+    "description": "Join the Exxon Mobil Rewards+™ program to earn points on fuel and convenience store purchases at Exxon™ and Mobil™ stations.",
+    "link": "https://www.exxon.com/en/rewards-program/",
+    "author": "ExxonMobil Corporation",
     "category": "Loyalty"
   },
   {
@@ -24,44 +55,12 @@
     "category": "Loyalty"
   },
   {
-    "title": "ExxonMobil",
-    "icon": "icons/exxonmobile.webp",
-    "description": "Join the Exxon Mobil Rewards+™ program to earn points on fuel and convenience store purchases at Exxon™ and Mobil™ stations.",
-    "link": "https://www.exxon.com/en/rewards-program/",
-    "author": "ExxonMobil Corporation",
-    "category": "Loyalty"
-  },
-  {
     "title": "Fuel Forward",
     "icon": "icons/fuelforward.webp",
     "description": "The Fuel Forward™ App is safe and for a limited time, you can save 20¢ per gallon on your first fill-up when you download the app.",
     "link": "https://www.phillips66gas.com/mobile-app/",
     "author": "Phillipe 66",
-    "category": "Featured"  
-  },
-  {
-    "title": "Fuel Rewards",
-    "icon": "icons/fuelrewards.webp",
-    "description": "Join the Fuel Rewards® program and save 5c/gal with Complimentary Gold Status.",
-    "link": "https://www.shell.us/motorist/ways-to-save/fuel-rewards-program.html",
-    "author": "Shell USA Inc.",
-    "category": "Loyalty"
-  },
-  {
-    "title": "GasBuddy",
-    "icon": "icons/gasbuddy.webp",
-    "description": "GasBuddy is a free app that helps you find the best gas prices in your area and earn GasBack to redeem at the pump.",
-    "link": "https://www.gasbuddy.com/",
-    "author": "GasBuddy LLC",
-    "category": "Featured"
-  },
-  {
-    "title": "Murphy",
-    "icon": "icons/murphy.webp",
-    "description": "Murphy USA offers fuel savings up to $1 off per gallon at the pump and deals on snacks, drinks and more with its Murphy Drive Rewards program.",
-    "link": "https://www.murphyusa.com/murphyusa/get-rewards/",
-    "author": "Murphy USA Inc.",
-    "category": "Loyalty"
+    "category": "Loyalty"  
   },
   {
     "title": "Speedway",
@@ -93,15 +92,7 @@
     "description": "Refreshing Rewards is a program that lets you earn points by buying tobacco products at Thorntons and redeem them for rewards.",
     "link": "https://www.refreshingrewards.com/refreshing-rewards/",
     "author": "Thorntons LLC",
-    "category": "Rewards"
-  },
-  {
-    "title": "Upside",
-    "icon": "icons/upside.webp",
-    "description": "Upside is a free app that lets you earn cash back on your purchases at participating locations.",
-    "link": "https://upside.app.link/2PVBC",
-    "author": "Upside Services Inc.",
-    "category": "Featured"
+    "category": "Loyalty"
   },
   {
     "title": "ValeroPay+",
@@ -109,6 +100,189 @@
     "description": "The ValeroPay+ app adds savings and convenience every day. Save money at the pump.",
     "link": "https://www.valeropayplus.com/",
     "author": "Valero Energy Corporation",
-    "category": "Rewards"
+    "category": "Loyalty"
   }
+  {
+    "title": "Maverik Adventure Club",
+    "icon": "icons/maverik.webp",
+    "description": "Save 2¢ per gallon with your Adventure Club account and 10¢ per gallon with your Nitro account.",
+    "link": "https://maverik.com/rewards/",
+    "author": "Maverik Inc.",
+    "category": "Loyalty"
+  },
+  {
+    "title": "myRewards Plus",
+    "icon": "icons/pilotflyingj.webp",
+    "description": "myRewards Plus is the best fuel rewards app on the road for pro drivers to earn more points, faster.",
+    "link": "https://loyaltyportal.pilotflyingj.com/myrewards/login",
+    "author": "Pilot Flying J ",
+    "category": "Loyalty"
+  },
+  
+/* END OF FUEL LOYALTY LIST */
+
+/* START OF GROCERY REWARDS LIST */
+
+  {
+    "title": "OneTouch Fuel",
+    "icon": "icons/safeway.webp",
+    "description": "Safeway offer fuel discounts of 10 cents off per gallon for every $100 you spend on groceries.",
+    "link": "https://www.safeway.com/about-us/mobile-apps.html",
+    "author": "Safeway",
+    "category": "Rewards"
+  },
+  {
+    "title": "Kroger",
+    "icon": "icons/kroger.webp",
+    "description": "Kroger’s fuel rewards program you earn 1 point for every $1 you spend in the store.",
+    "link": "https://www.kroger.com/d/fuel-points-program",
+    "author": "Kroger Co.",
+    "category": "Rewards"
+  },
+  {
+    "title": "Stop & Shop",
+    "icon": "icons/stopandshop.webp",
+    "description": "Stop & Shop gives you 10 cents off per gallon for every $100 you spend.",
+    "link": "https://stopandshop.com/savings-and-rewards/rewards-program/gas-rewards/",
+    "author": "Stop & Shop LLC",
+    "category": "Rewards"
+  },
+  {
+    "title": "Albertsons",
+    "icon": "icons/albertsons.webp",
+    "description": "Receive 1 point per $1 spent on groceries or pharmacy. Once you reach 100 points you’ve earned 10 cents off per gallon.",
+    "link": "https://www.albertsonsmarket.com/page/savings/rewards",
+    "author": "Albertsons Companies Inc.",
+    "category": "Rewards"
+  },
+  {
+    "title": "Albertsons",
+    "icon": "icons/albertsons.webp",
+    "description": "Receive 1 point per $1 spent on groceries or pharmacy. Once you reach 100 points you’ve earned 10 cents off per gallon.",
+    "link": "https://www.albertsonsmarket.com/page/savings/rewards",
+    "author": "Albertsons Companies Inc.",
+    "category": "Rewards"
+  },
+  {
+    "title": "Piggly Wiggly",
+    "icon": "icons/piggly.webp",
+    "description": "With a free Piggly Wiggly rewards card, you can receive 1 cent off per gallon, up to 15 gallons of gas at participating gas stations.",
+    "link": "https://www.shopthepig.com/pig-points",
+    "author": "Piggly Wiggly LLC",
+    "category": "Rewards"
+  },
+  {
+    "title": "Ingles",
+    "icon": "icons/ingles.webp",
+    "description": "Every $1 spent at Ingles earns you 1 fuel point. Every 100 points gets you 5 cents off per gallon at Ingles Gas Express locations.",
+    "link": "https://www.ingles-markets.com/4x-fuel-points",
+    "author": "Ingles Markets Inc.",
+    "category": "Rewards"
+  },
+  {
+    "title": "Lowes",
+    "icon": "icons/lowes.webp",
+    "description": "Shop in the store and for every $100 you spend, earn 5 cents off per gallon at Lowes Food gas stations.",
+    "link": "https://www.lowesfoods.com/savings-and-rewards/gas-rewards",
+    "author": "Lowes Foods",
+    "category": "Rewards"
+  },
+  {
+    "title": "Harris Teeter",
+    "icon": "icons/harristeeter.webp",
+    "description": "Earn 1 fuel point for every $1 spent in-store. Every 100 fuel points earned equals 10 cents off per gallon.",
+    "link": "https://www.harristeeter.com/d/fuel-points-program",
+    "author": "Harris Teeter LLC",
+    "category": "Rewards"
+  },
+  {
+    "title": "Food City",
+    "icon": "icons/foodcity.webp",
+    "description": "Save up to 45¢ per gallon on fuel when you redeem 450 Fuel Bucks at participating Food City Gas 'N Go locations.",
+    "link": "https://www.foodcity.com/fuel/",
+    "author": "Food City",
+    "category": "Rewards"
+  },
+  {
+    "title": "Price Chopper",
+    "icon": "icons/pricechopper.webp",
+    "description": "Price Chopper stores award you 5 cents off each gallon of gas for every $100 you spend in stores.",
+    "link": "https://www.pricechopper.com/rewards/",
+    "author": "Price Chopper",
+    "category": "Rewards"
+  },
+  {
+    "title": "Shaw’s",
+    "icon": "icons/shaws.webp",
+    "description": "Shaw’s offers 10 cents off per gallon for every $100 you spend.",
+    "link": "https://www.shaws.com/lp/chevron.2653.html",
+    "author": "Shaw's Supermarkets",
+    "category": "Rewards"
+  },
+  {
+    "title": "Tops GasPoints",
+    "icon": "icons/tops.webp",
+    "description": "Tops offers 1 point for every $1 you spend. Get 10 cents off per gallon by earning 100 points.",
+    "link": "https://www.topsmarkets.com/GasPoints/",
+    "author": "Tops Market",
+    "category": "Rewards"
+  },
+  {
+    "title": "Pump Perks",
+    "icon": "icons/shopnsave.webp",
+    "description": "Shop N’ Save offers 10 cents off per gallon for every $50 you spend.",
+    "link": "https://www.shopnsavefood.com/extra/pump",
+    "author": "Shop N’ Save",
+    "category": "Rewards"
+  },
+  {
+    "title": "Fuel Points",
+    "icon": "icons/payless.webp",
+    "description": "Pay Less offer 1 fuel point for every $1 spent, and 100 points will get you 10 cents off per gallon.",
+    "link": "https://www.pay-less.com/d/fuel-points-program",
+    "author": "Pay Less Super Markets",
+    "category": "Rewards"
+  },
+  {
+    "title": "HyVee PERKS",
+    "icon": "icons/hyvee.webp",
+    "description": "Earn Fuel Saver rewards on designated items at Hy-Vee and earn discounts that can be used when you fill up your tank gas.",
+    "link": "https://www.hy-vee.com/perks/",
+    "author": "Hy-Vee Inc.",
+    "category": "Rewards"
+  },
+  {
+    "title": "My Cub Rewards",
+    "icon": "icons/cub.webp",
+    "description": "Cub Foods offers fuel discounts at participating Holiday gas stations through its My Cub Rewards card.",
+    "link": "https://www.cub.com/sm/pickup/rsid/1612/fuel-rewards",
+    "author": "Cub Foods",
+    "category": "Rewards"
+  },
+  {
+    "title": "QFC Fuel Program",
+    "icon": "icons/qfc.webp",
+    "description": "For every $100 you spend at QFC, you’ll receive 10 cents off per gallon.",
+    "link": "https://www.qfc.com/d/fuel-points-program",
+    "author": "Quality Food Centers",
+    "category": "Rewards"
+  },
+  {
+    "title": "Fred Fuel Program",
+    "icon": "icons/fred.webp",
+    "description": "Fred Meyer offers 1 point for every $1 spent, and 100 points earns you 10 cents off per gallon.",
+    "link": "https://www.fredmeyer.com/d/fuel-points-program",
+    "author": "Fred Meyer",
+    "category": "Rewards"
+  },
+  {
+    "title": "Fry's Fuel Program",
+    "icon": "icons/frys.webp",
+    "description": "Fry’s Food offers 10 cents off for every $100 you spend.",
+    "link": "https://www.fredmeyer.com/d/fuel-points-program",
+    "author": "Fry's Food",
+    "category": "Rewards"
+  },
+  
+/* START OF GROCERY REWARDS LIST */
 ]
