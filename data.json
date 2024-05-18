@@ -151,14 +151,6 @@
     "category": "Rewards"
   },
   {
-    "title": "Albertsons",
-    "icon": "icons/albertsons.webp",
-    "description": "Receive 1 point per $1 spent on groceries or pharmacy. Once you reach 100 points you’ve earned 10 cents off per gallon.",
-    "link": "https://www.albertsonsmarket.com/page/savings/rewards",
-    "author": "Albertsons Companies Inc.",
-    "category": "Rewards"
-  },
-  {
     "title": "Piggly Wiggly",
     "icon": "icons/piggly.webp",
     "description": "With a free Piggly Wiggly rewards card, you can receive 1 cent off per gallon, up to 15 gallons of gas at participating gas stations.",
@@ -196,6 +188,14 @@
     "description": "Save up to 45¢ per gallon on fuel when you redeem 450 Fuel Bucks at participating Food City Gas 'N Go locations.",
     "link": "https://www.foodcity.com/fuel/",
     "author": "Food City",
+    "category": "Rewards"
+  },
+  {
+    "title": "Fuel Perks+",
+    "icon": "icons/gianteagle.webp",
+    "description": "Fuelperks+ program offers 10 cents off per gallon for every $50 spent at Giant Eagle, GetGo, Market District or Giant Eagle Express.",
+    "link": "https://www.gianteagle.com/save/perks",
+    "author": "Giant Eagle",
     "category": "Rewards"
   },
   {
