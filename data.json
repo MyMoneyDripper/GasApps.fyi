@@ -1,6 +1,7 @@
 [
 
 
+
   {
     "title": "Upside",
     "icon": "icons/upside.webp",
@@ -117,6 +118,7 @@
     "category": "Loyalty"
   },
   
+  
 
   {
     "title": "OneTouch Fuel",
@@ -191,9 +193,9 @@
     "category": "Rewards"
   },
   {
-    "title": "Fuel Perks+",
+    "title": "fuelerks+",
     "icon": "icons/gianteagle.webp",
-    "description": "Fuelperks+ program offers 10 cents off per gallon for every $50 spent at Giant Eagle, GetGo, Market District or Giant Eagle Express.",
+    "description": "The fuelperks+ program offers 10 cents off per gallon for every $50 spent at Giant Eagle, GetGo, Market District or Giant Eagle Express.",
     "link": "https://www.gianteagle.com/save/perks",
     "author": "Giant Eagle",
     "category": "Rewards"
@@ -279,5 +281,6 @@
     "category": "Rewards"
   }
   
-
+  
+  
 ]
