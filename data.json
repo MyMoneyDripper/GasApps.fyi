@@ -1,5 +1,5 @@
 [
-/* START OF FEATURED LIST */
+
 
   {
     "title": "Upside",
@@ -18,9 +18,7 @@
     "category": "Featured"
   },
   
-/* END OF FEATURED LIST */
 
-/* START OF FUEL LOYALTY LIST */
 
   {
     "title": "BPme Rewards",
@@ -101,7 +99,7 @@
     "link": "https://www.valeropayplus.com/",
     "author": "Valero Energy Corporation",
     "category": "Loyalty"
-  }
+  },
   {
     "title": "Maverik Adventure Club",
     "icon": "icons/maverik.webp",
@@ -119,9 +117,6 @@
     "category": "Loyalty"
   },
   
-/* END OF FUEL LOYALTY LIST */
-
-/* START OF GROCERY REWARDS LIST */
 
   {
     "title": "OneTouch Fuel",
@@ -282,7 +277,7 @@
     "link": "https://www.fredmeyer.com/d/fuel-points-program",
     "author": "Fry's Food",
     "category": "Rewards"
-  },
+  }
   
-/* START OF GROCERY REWARDS LIST */
+
 ]
