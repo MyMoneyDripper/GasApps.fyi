@@ -15,16 +15,16 @@
   <title>GasApps.fyi</title>
   <style>
     /* Custom styles */
-  @font-face {
+    @font-face {
       font-family: 'Toboggan-Light';
       src: url('fonts/Toboggan-Light.otf') format('opentype');
     }
-  @font-face {
-    font-family: 'HelveticaNowText-Bold-Demo';
-    src: url('fonts/helveticanowtext-bold-demo.ttf') format('truetype');
-    font-weight: bold; /* If the font is bold */
-    font-style: normal; /* If the font is normal */
-  }
+    @font-face {
+      font-family: 'HelveticaNowText-Bold-Demo';
+      src: url('fonts/helveticanowtext-bold-demo.ttf') format('truetype');
+      font-weight: bold; /* If the font is bold */
+      font-style: normal; /* If the font is normal */
+    }
 
     header {
       display: flex;
@@ -44,7 +44,6 @@
       margin-left: 300px;
       padding-right: 2px;
       text-align: right;
-      
     }
 
     .header-right {
@@ -56,8 +55,11 @@
       margin-left: 10px;
       font-family: 'Toboggan-Light', sans-serif;
       text-align: center;
-     
-    
+    }
+
+    .contact-button {
+      background-color: #f9f4f4;
+      border-radius: 20px;
     }
 
     body {
@@ -65,16 +67,15 @@
       margin: 0;
       padding: 0;
     }
-    h1{
+    
+    h1 {
       font-family: 'HelveticaNowText-Bold-Demo', sans-serif;
       text-align: center;
-      font-weight:bolder;
+      font-weight: bolder;
       font-size: 2.3em;
       color: #000000;
-      letter-spacing: -2px; 
-
+      letter-spacing: -2px;
     }
-
 
     h2 {
       font-size: 1.0em;
@@ -89,7 +90,7 @@
       font-family: 'HelveticaNowText-Bold-Demo', sans-serif;
       text-align: center;
       margin-top: 70px;
-      letter-spacing: -1px; 
+      letter-spacing: -1px;
     }
 
     #featured-apps,
@@ -110,7 +111,6 @@
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
       text-align: center;
       background-color: #f9f9f9;
-
     }
 
     .app img {
@@ -138,7 +138,6 @@
       border-radius: 5px;
       transition: background-color 0.3s;
       border: 1px solid #000; 
-      
     }
 
     .app a:hover {
@@ -157,8 +156,6 @@
       color: #000000;
       cursor: pointer;
       transition: background-color 0.3s;
-      
-
     }
 
     button:hover {
@@ -171,35 +168,34 @@
       font-size: 1.5em;
       font-family: 'Toboggan-Light', sans-serif;
     }
-    a{
     
+    a {
       font-family: 'Toboggan-Light', sans-serif;
       text-align: center;
-     
-    
     }
+
     @media (max-width: 768px) {
-     header {
-    flex-direction: column;
-    padding: 10px;
+      header {
+        flex-direction: column;
+        padding: 10px;
+      }
+
+      .header-left {
+        margin-bottom: 10px;
+      }
+
+      .header-right {
+        margin-top: 10px;
+      }
+
+      .header-left img {
+        margin-left: 0;
+      }
+
+      .header-right {
+        margin-right: 0;
+      }
     }
-
-    .header-left {
-    margin-bottom: 10px;
-   }
-
-    .header-right {
-    margin-top: 10px;
-    }
-
-    .header-left img {
-    margin-left: 0;
-     }
-
-   .header-right {
-    margin-right: 0;
-  }
-}
   </style>
 </head>
 <body>
@@ -209,8 +205,8 @@
       <p>GasApps.fyi</p>
     </div>
     <div class="header-right">
+      <button class="disclosure-button">Guides</button>
       <button class="contact-button">Contact</button>
-      <button class="disclosure-button">Disclosure</button>
     </div>
   </header>
   <div>
