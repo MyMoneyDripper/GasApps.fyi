@@ -1,6 +1,6 @@
 # The Complete Guide to Saving Money with Gas Apps
 
-### 1. Start with Upside
+## 1. Start with Upside
 
 The Upside app offers a straightforward way to save on gas without the hassle of special cards or codes. By partnering with gas stations, Upside gives you cash back on your fuel purchases. Here’s how it works: open the app to find a list of participating gas stations in the GetUpside program. Your potential savings will range from 10 cents to 35 cents per gallon, depending on the station you choose. Once you’ve selected a gas station, fill up your tank using any payment method, and snap a picture of your receipt. Upside will then calculate your savings and send the amount through PayPal.
 
@@ -8,7 +8,7 @@ Upside makes the process simple and user-friendly, focusing on convenience and i
 
 To maximize your savings with Upside, consider planning your fill-ups based on the best available deals in your area. Regularly check the app for new offers and high-cashback stations. Over time, the savings can add up significantly, especially for those who drive frequently. Additionally, Upside often runs promotions that can further increase your savings, making it a valuable tool in your money-saving arsenal.
 
-### 2. Pay with GasBuddy
+## 2. Pay with GasBuddy
 
 GasBuddy offers another excellent way to save on gas with its Pay with GasBuddy program. When you sign up, you’ll receive a prepaid gas card linked to your checking account, allowing you to save on every fill-up at many gas stations nationwide. Free members can save up to 25 cents per gallon, while GasBuddy Premium members, who pay $9.99 per month, can save up to 40 cents per gallon. Premium membership also includes 24-hour roadside assistance from Allstate and exclusive GasBack offers.
 
@@ -16,7 +16,7 @@ Pay with GasBuddy provides significant savings without requiring major changes t
 
 For maximum savings, consider the premium membership if you drive enough to justify the monthly fee. The additional benefits, such as guaranteed savings and roadside assistance, add extra value to the program. Keep an eye on GasBack offers, which provide further discounts and rewards on gas purchases and other expenses, enhancing your overall savings strategy.
 
-### 3. Gas Station Loyalty Programs
+## 3. Gas Station Loyalty Programs
 
 Most major gas station chains offer loyalty programs that reward frequent customers with discounts and points. Signing up for these programs typically involves providing your name and contact information, after which you’ll receive a member account number. You can use this number whenever you make purchases at the corresponding gas stations to earn immediate discounts or reward points.
 
