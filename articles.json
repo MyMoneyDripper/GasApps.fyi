@@ -2,7 +2,7 @@
 	{
 		"title": "The Complete Guide to Saving Money with Gas Apps",
 		"author": "John Smith",
-		"date": "July 7, 2024",
+		"date": "June 1, 2024",
 		"thumbnail": "articles/image1.png",
 		"featured": true,
 		"path": "articles/The-Complete-Guide-to-Saving-Money-with-Gas-Apps.md",
@@ -11,7 +11,7 @@
 	{
 		"title": "Ultimate List of Gas Loyalty Programs",
 		"author": "John Smith",
-		"date": "July 7, 2024",
+		"date": "June 2, 2024",
 		"thumbnail": "articles/image1.png",
 		"featured": false,
 		"path": "articles/Ultimate-List-of-Gas-Loyalty-Programs.md",
@@ -20,11 +20,20 @@
 	{
 		"title": "Ultimate List of Grocery Fuel Rewards Programs",
 		"author": "John Smith",
-		"date": "July 7, 2024",
+		"date": "June 3, 2024",
 		"thumbnail": "articles/image1.png",
 		"featured": false,
 		"path": "articles/Ultimate-List-of-Grocery-Fuel-Rewards-Programs.md",
 		"intro":"This article offers an in-depth overview of grocery fuel rewards programs, explaining how shoppers can earn fuel discounts through their regular grocery purchases."
+	},
+	{
+		"title": "Complete Guide to BPme Rewards by BP",
+		"author": "John Smith",
+		"date": "June 29, 2024",
+		"thumbnail": "articles/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-BPme-Rewards-by-BP.md",
+		"intro":"BPme Rewards is a program that lets you save on every gallon of fuel at bp and Amoco stations with no minimum spend and instant rewards."
 	}
 ]
   
