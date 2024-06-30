@@ -34,6 +34,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-BPme-Rewards-by-BP.md",
 		"intro":"BPme Rewards is a program that lets you save on every gallon of fuel at bp and Amoco stations with no minimum spend and instant rewards."
+	},
+	{
+		"title": "Complete Guide to Exxon Mobile Rewards+ by ExxonMobile",
+		"author": "John Smith",
+		"date": "June 30, 2024",
+		"thumbnail": "articles/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-Exxon-Mobile-Rewards-by-ExxonMobile.md",
+		"intro":"Join the Exxon Mobil Rewards+™ program to earn points on fuel and convenience store purchases at Exxon™ and Mobil™ stations."
 	}
 ]
   
