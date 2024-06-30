@@ -1,4 +1,4 @@
-# Complete Guide to Exxon Mobile Rewards+ by ExxonMobile: Maximize Fuel Savings and Extra Perks Explained**
+# Complete Guide to Exxon Mobile Rewards+ by ExxonMobile: Maximize Fuel Savings and Extra Perks Explained
 
 Tired of paying more at the pump? With gas prices on the rise, making each trip count is essential. The [Exxon Mobil Rewards+](https://www.exxon.com/en/rewards-program) program offers real advantages for frequent customers, making your routine fill-ups more cost-effective. This gas-loyalty program provides tangible benefits for loyal customers, making your routine fill-ups more rewarding. 
 
