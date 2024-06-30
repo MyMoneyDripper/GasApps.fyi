@@ -70,7 +70,7 @@
     "category": "Loyalty"  
   },
   {
-    "title": "Speedway",
+    "title": "Club Rewards",
     "icon": "icons/speedway.webp",
     "description": "Earn 50 points per dollar by using your Speedy Rewards® Mastercard® card for purchases at Speedway.",
     "link": "https://www.speedway.com/club-rewards/",
@@ -78,7 +78,7 @@
     "category": "Loyalty"
   },
   {
-    "title": "Sunoco",
+    "title": "Sunoco Go Rewards",
     "icon": "icons/sunoco.webp",
     "description": "Sunoco offers various ways to earn and redeem gas rewards at participating stations.",
     "link": "https://www.sunoco.com/rewards",
