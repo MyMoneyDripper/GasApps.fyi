@@ -43,6 +43,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Exxon-Mobile-Rewards-by-ExxonMobile.md",
 		"intro":"Join the Exxon Mobil Rewards+™ program to earn points on fuel and convenience store purchases at Exxon™ and Mobil™ stations."
+	},
+	{
+		"title": "Complete Guide to Fuel Rewards by Shell",
+		"author": "John Smith",
+		"date": "July 1, 2024",
+		"thumbnail": "articles/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-Fuel-Rewards-by-Shell.md",
+		"intro":"Join the Fuel Rewards® program and save 5c/gal with Complimentary Gold Status."
 	}
 ]
   
