@@ -78,6 +78,14 @@
     "category": "Loyalty"
   },
   {
+    "title": "7 Rewards",
+    "icon": "icons/711.webp",
+    "description": "7-Eleven Rewards has exclusive deals that earn you points on nearly every dollar you spend.",
+    "link": "https://www.7-eleven.com/7rewards",
+    "author": "7-Eleven",
+    "category": "Loyalty"
+  },
+  {
     "title": "Sunoco Go Rewards",
     "icon": "icons/sunoco.webp",
     "description": "Sunoco offers various ways to earn and redeem gas rewards at participating stations.",
