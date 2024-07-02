@@ -52,6 +52,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Fuel-Rewards-by-Shell.md",
 		"intro":"Join the Fuel Rewards® program and save 5c/gal with Complimentary Gold Status."
+	},
+	{
+		"title": "Complete Guide to Inner Circle by Circle K",
+		"author": "John Smith",
+		"date": "July 2, 2024",
+		"thumbnail": "articles/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-Inner-Circle-by-Circle-K.md",
+		"intro":"Circle K offers Inner Circle members fuel rewards, food rewards and more."
 	}
 ]
   
