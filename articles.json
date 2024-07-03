@@ -61,6 +61,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Inner-Circle-by-Circle-K.md",
 		"intro":"Circle K offers Inner Circle members fuel rewards, food rewards and more."
+	},
+	{
+		"title": "Complete Guide to Chevron Rewards by Chevron",
+		"author": "John Smith",
+		"date": "July 3, 2024",
+		"thumbnail": "articles/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-Chevron-Rewards-by-Chevron.md",
+		"intro":"Earn 5 points per gallon to save between 5¢ to 50¢ off per gallon."
 	}
 ]
   
