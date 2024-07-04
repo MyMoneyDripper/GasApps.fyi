@@ -70,6 +70,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Chevron-Rewards-by-Chevron.md",
 		"intro":"Earn 5 points per gallon to save between 5¢ to 50¢ off per gallon."
+	},
+	{
+		"title": "Complete Guide to Fuel Forward by Phillips 66",
+		"author": "John Smith",
+		"date": "July 4, 2024",
+		"thumbnail": "articles/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-Fuel-Forward-by-Phillips-66.md",
+		"intro":"The Fuel Forward™ App is safe and for a limited time, you can save 20¢ per gallon on your first fill-up when you download the app."
 	}
 ]
   
