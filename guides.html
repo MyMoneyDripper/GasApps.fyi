@@ -16,6 +16,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GasApps.fyi - Guides</title>
   <style>
+    :root {
+      --header-font-size: 13.5px; /* Default font size for header menu */
+      --header-font-size-large: 13.5px; /* Larger font size for header menu */
+      --title-font-size: 1.8em; /* Default font size for title */
+    }
+
     /* Custom styles */
     @font-face {
       font-family: 'Toboggan-Light';
@@ -35,6 +41,7 @@
       background-color: #fff;
       color: #333;
       padding: 20px;
+      font-size: var(--header-font-size);
     }
 
     .header-left {
@@ -193,6 +200,7 @@
       color: #000000;
       cursor: pointer;
       transition: background-color 0.3s;
+      font-size: var(--header-font-size);
     }
 
     button:hover {
@@ -202,7 +210,7 @@
     .header-left p {
       margin: 0;
       font-weight: bold;
-      font-size: 1.5em;
+      font-size: var(--title-font-size); /* Use the variable for font size */
       font-family: 'Toboggan-Light', sans-serif;
     }
     
