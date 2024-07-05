@@ -79,6 +79,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Fuel-Forward-by-Phillips-66.md",
 		"intro":"The Fuel Forward™ App is safe and for a limited time, you can save 20¢ per gallon on your first fill-up when you download the app."
+	},
+	{
+		"title": "Complete Guide to Refreshing Rewards by Thorntons",
+		"author": "John Smith",
+		"date": "July 5, 2024",
+		"thumbnail": "articles/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-Refreshing-Rewards-by-Thorntons.md",
+		"intro":"Refreshing Rewards is a program that lets you earn points by buying tobacco products at Thorntons and redeem them for rewards."
 	}
 ]
   
