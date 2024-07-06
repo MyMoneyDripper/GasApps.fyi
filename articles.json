@@ -88,6 +88,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Refreshing-Rewards-by-Thorntons.md",
 		"intro":"Refreshing Rewards is a program that lets you earn points by buying tobacco products at Thorntons and redeem them for rewards."
+	},
+	{
+		"title": "Complete Guide to ValeroPay+ by Valero",
+		"author": "John Smith",
+		"date": "July 6, 2024",
+		"thumbnail": "articles/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-ValeroPay+-by-Valero.md",
+		"intro":"The ValeroPay+ app adds savings and convenience every day. Save money at the pump."
 	}
 ]
   
