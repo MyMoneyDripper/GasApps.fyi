@@ -97,6 +97,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-ValeroPay+-by-Valero.md",
 		"intro":"The ValeroPay+ app adds savings and convenience every day. Save money at the pump."
+	},
+	{
+		"title": "Complete Guide to Adventure Club Rewards by Maverik",
+		"author": "John Smith",
+		"date": "July 7, 2024",
+		"thumbnail": "articles/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-Adventure-Club-Rewards-by-Maverik.md",
+		"intro":"Save 2¢ per gallon with your Adventure Club account and 10¢ per gallon with your Nitro account."
 	}
 ]
   
