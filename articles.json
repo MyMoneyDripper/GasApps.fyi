@@ -106,6 +106,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Adventure-Club-Rewards-by-Maverik.md",
 		"intro":"Save 2¢ per gallon with your Adventure Club account and 10¢ per gallon with your Nitro account."
+	},
+	{
+		"title": "Complete Guide to myRewards Plus by Pilot Flying J",
+		"author": "John Smith",
+		"date": "July 8, 2024",
+		"thumbnail": "articles/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-myRewards-Plus-by-Pilot-Flying-J.md",
+		"intro":"myRewards Plus is the best fuel rewards app on the road for pro drivers to earn more points, faster."
 	}
 ]
   
