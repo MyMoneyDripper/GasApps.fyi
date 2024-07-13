@@ -115,6 +115,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-myRewards-Plus-by-Pilot-Flying-J.md",
 		"intro":"myRewards Plus is the best fuel rewards app on the road for pro drivers to earn more points, faster."
+	},
+	{
+		"title": "Complete Guide to 7Rewards by 7-Eleven",
+		"author": "John Smith",
+		"date": "July 13, 2024",
+		"thumbnail": "articles/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-7Rewards-by-7-Eleven.md",
+		"intro":"7-Eleven Rewards has exclusive deals that earn you points on nearly every dollar you spend."
 	}
 ]
   
