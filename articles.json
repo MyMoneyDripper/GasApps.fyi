@@ -124,6 +124,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-7Rewards-by-7-Eleven.md",
 		"intro":"7-Eleven Rewards has exclusive deals that earn you points on nearly every dollar you spend."
+	},
+	{
+		"title": "Complete Guide to Club Rewards by Speedway",
+		"author": "John Smith",
+		"date": "July 14, 2024",
+		"thumbnail": "articles/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-Club-Rewards-by-Speedway.md",
+		"intro":"Earn 50 points per dollar by using your Speedy Rewards® Mastercard® card for purchases at Speedway."
 	}
 ]
   
