@@ -133,6 +133,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Club-Rewards-by-Speedway.md",
 		"intro":"Earn 50 points per dollar by using your Speedy Rewards® Mastercard® card for purchases at Speedway."
+	},
+	{
+		"title": "Complete Guide to Sunoco Go Rewards by Sunoco",
+		"author": "John Smith",
+		"date": "July 15, 2024",
+		"thumbnail": "articles/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-Sunoco-Go-Rewards-by-Sunoco.md",
+		"intro":"Sunoco offers various ways to earn and redeem gas rewards at participating stations."
 	}
 ]
   
