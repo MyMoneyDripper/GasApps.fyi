@@ -142,6 +142,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Sunoco-Go-Rewards-by-Sunoco.md",
 		"intro":"Sunoco offers various ways to earn and redeem gas rewards at participating stations."
+	},
+	{
+		"title": "Complete Guide to Texaco Rewards by Texaco",
+		"author": "John Smith",
+		"date": "July 16, 2024",
+		"thumbnail": "articles/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-Texaco-Rewards-by-Texaco.md",
+		"intro":"Earn 5 points per gallon to save between 5¢ to 50¢ off per gallon."
 	}
 ]
   
