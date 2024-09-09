@@ -13,8 +13,10 @@ window.onload = function() {
           <img src="${app.icon}" alt="${app.title}">
           <h2>${app.title}</h2>
           <p>${app.author}</p>
-          <p>${app.description}</p>
-          <a href="${app.link}" target="_blank">Visit Website</a>
+          <div class="button-container">
+            <a href="${app.link}" class="btn btn-secondary" target="_blank">Visit Website</a>
+            <a href="article.html?path=${app['article-path']}" class="btn btn-primary" target="_blank">View Guide</a>
+          </div>
         `;
 
         // Append to the appropriate section based on the category
@@ -33,28 +35,26 @@ window.onload = function() {
     })
     .catch(error => console.error('Error fetching data:', error));
 };
-   // Get the modal
-    var modal = document.getElementById("contactModal");
 
-    // Get the button that opens the modal
-    var btn = document.querySelector(".contact-button");
+// Modal logic remains unchanged
+var modal = document.getElementById("contactModal");
+var btn = document.querySelector(".contact-button");
+var span = document.getElementsByClassName("close")[0];
 
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+}
 
-    // When the user clicks the button, open the modal 
-    btn.onclick = function() {
-      modal.style.display = "block";
-    }
+span.onclick = function() {
+  modal.style.display = "none";
+}
 
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
+document.querySelector(".cancel-button").onclick = function() {
+  modal.style.display = "none";
+}

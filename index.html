@@ -292,6 +292,36 @@
     .modal form button:hover {
       background-color: #255a9b;
     }
+    .button-container {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+  justify-content: center; /* Center the buttons horizontally */
+}
+
+.btn {
+  padding: 10px 20px; /* Padding inside the buttons */
+  border-radius: 5px; /* Rounded corners */
+  border: 2px solid #ccc; /* Border around the buttons */
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Example color for "Visit Website" */
+  color: #fff; /* Text color */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Example color for "View Guide" */
+  color: #fff; /* Text color */
+}
+
+.btn-secondary:hover, .btn-primary:hover {
+  opacity: 0.8; /* Slightly dim the buttons on hover */
+  border-color: #999; /* Darken border on hover */
+}
+
   </style>
 </head>
 <body>
@@ -306,6 +336,7 @@
     <div class="header-right">
       <a href="index.html"><button class="disclosure-button">Home</button></a>
       <a href="guides.html"><button class="disclosure-button">Guides</button></a>
+      <a href="about.html"><button class="disclosure-button">About Us</button></a>
       <button class="contact-button">Contact</button>
     </div>
   </header>
