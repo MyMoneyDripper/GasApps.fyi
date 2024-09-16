@@ -3,7 +3,7 @@
 		"title": "The Complete Guide to Saving Money with Gas Apps",
 		"author": "John Smith",
 		"date": "June 1, 2024",
-		"thumbnail": "articles/image1.png",
+		"thumbnail": "thumbnails/image1.png",
 		"featured": true,
 		"path": "articles/The-Complete-Guide-to-Saving-Money-with-Gas-Apps.md",
 		"intro":"This guide provides comprehensive tips and insights on using gas apps to save money on fuel purchases."
@@ -12,7 +12,7 @@
 		"title": "Ultimate List of Gas Loyalty Programs",
 		"author": "John Smith",
 		"date": "June 2, 2024",
-		"thumbnail": "articles/image1.png",
+		"thumbnail": "thumbnails/image1.png",
 		"featured": false,
 		"path": "articles/Ultimate-List-of-Gas-Loyalty-Programs.md",
 		"intro":"This article details various gas loyalty programs, highlighting the benefits and features of each to help consumers save on fuel costs."
@@ -21,7 +21,7 @@
 		"title": "Ultimate List of Grocery Fuel Rewards Programs",
 		"author": "John Smith",
 		"date": "June 3, 2024",
-		"thumbnail": "articles/image1.png",
+		"thumbnail": "thumbnails/image1.png",
 		"featured": false,
 		"path": "articles/Ultimate-List-of-Grocery-Fuel-Rewards-Programs.md",
 		"intro":"This article offers an in-depth overview of grocery fuel rewards programs, explaining how shoppers can earn fuel discounts through their regular grocery purchases."
@@ -30,7 +30,7 @@
 		"title": "Complete Guide to BPme Rewards by BP",
 		"author": "John Smith",
 		"date": "June 29, 2024",
-		"thumbnail": "articles/bpme.webp",
+		"thumbnail": "thumbnails/bpme.webp",
 		"featured": false,
 		"path": "articles/Complete-Guide-to-BPme-Rewards-by-BP.md",
 		"intro":"BPme Rewards is a program that lets you save on every gallon of fuel at bp and Amoco stations with no minimum spend and instant rewards."
@@ -39,7 +39,7 @@
 		"title": "Complete Guide to Exxon Mobile Rewards+ by ExxonMobile",
 		"author": "John Smith",
 		"date": "June 30, 2024",
-		"thumbnail": "articles/exxonmobil.webp",
+		"thumbnail": "thumbnails/exxonmobil.webp",
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Exxon-Mobile-Rewards-by-ExxonMobile.md",
 		"intro":"Join the Exxon Mobil Rewards+™ program to earn points on fuel and convenience store purchases at Exxon™ and Mobil™ stations."
@@ -48,7 +48,7 @@
 		"title": "Complete Guide to Fuel Rewards by Shell",
 		"author": "John Smith",
 		"date": "July 1, 2024",
-		"thumbnail": "articles/shellfuelrewards.webp",
+		"thumbnail": "thumbnails/shellfuelrewards.webp",
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Fuel-Rewards-by-Shell.md",
 		"intro":"Join the Fuel Rewards® program and save 5c/gal with Complimentary Gold Status."
@@ -57,7 +57,7 @@
 		"title": "Complete Guide to Inner Circle by Circle K",
 		"author": "John Smith",
 		"date": "July 2, 2024",
-		"thumbnail": "articles/circlek.webp",
+		"thumbnail": "thumbnails/circlek.webp",
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Inner-Circle-by-Circle-K.md",
 		"intro":"Circle K offers Inner Circle members fuel rewards, food rewards and more."
@@ -75,7 +75,7 @@
 		"title": "Complete Guide to Fuel Forward by Phillips 66",
 		"author": "John Smith",
 		"date": "July 4, 2024",
-		"thumbnail": "articles/fuelforward.webp",
+		"thumbnail": "thumbnails/fuelforward.webp",
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Fuel-Forward-by-Phillips-66.md",
 		"intro":"The Fuel Forward™ App is safe and for a limited time, you can save 20¢ per gallon on your first fill-up when you download the app."
@@ -84,7 +84,7 @@
 		"title": "Complete Guide to Refreshing Rewards by Thorntons",
 		"author": "John Smith",
 		"date": "July 5, 2024",
-		"thumbnail": "articles/refreshingrewards.webp",
+		"thumbnail": "thumbnails/refreshingrewards.webp",
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Refreshing-Rewards-by-Thorntons.md",
 		"intro":"Refreshing Rewards is a program that lets you earn points by buying tobacco products at Thorntons and redeem them for rewards."
@@ -93,7 +93,7 @@
 		"title": "Complete Guide to ValeroPay+ by Valero",
 		"author": "John Smith",
 		"date": "July 6, 2024",
-		"thumbnail": "articles/valeropay.webp",
+		"thumbnail": "thumbnails/valeropay.webp",
 		"featured": false,
 		"path": "articles/Complete-Guide-to-ValeroPay+-by-Valero.md",
 		"intro":"The ValeroPay+ app adds savings and convenience every day. Save money at the pump."
@@ -102,7 +102,7 @@
 		"title": "Complete Guide to Adventure Club Rewards by Maverik",
 		"author": "John Smith",
 		"date": "July 7, 2024",
-		"thumbnail": "articles/maverik.webp",
+		"thumbnail": "thumbnails/maverik.webp",
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Adventure-Club-Rewards-by-Maverik.md",
 		"intro":"Save 2¢ per gallon with your Adventure Club account and 10¢ per gallon with your Nitro account."
@@ -111,7 +111,7 @@
 		"title": "Complete Guide to myRewards Plus by Pilot Flying J",
 		"author": "John Smith",
 		"date": "July 8, 2024",
-		"thumbnail": "articles/myrewardsplus.webp",
+		"thumbnail": "thumbnails/myrewardsplus.webp",
 		"featured": false,
 		"path": "articles/Complete-Guide-to-myRewards-Plus-by-Pilot-Flying-J.md",
 		"intro":"myRewards Plus is the best fuel rewards app on the road for pro drivers to earn more points, faster."
@@ -120,7 +120,7 @@
 		"title": "Complete Guide to 7Rewards by 7-Eleven",
 		"author": "John Smith",
 		"date": "July 13, 2024",
-		"thumbnail": "articles/7rewards.webp",
+		"thumbnail": "thumbnails/7rewards.webp",
 		"featured": false,
 		"path": "articles/Complete-Guide-to-7Rewards-by-7-Eleven.md",
 		"intro":"7-Eleven Rewards has exclusive deals that earn you points on nearly every dollar you spend."
@@ -129,7 +129,7 @@
 		"title": "Complete Guide to Club Rewards by Speedway",
 		"author": "John Smith",
 		"date": "July 14, 2024",
-		"thumbnail": "articles/speedway.webp",
+		"thumbnail": "thumbnails/speedway.webp",
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Club-Rewards-by-Speedway.md",
 		"intro":"Earn 50 points per dollar by using your Speedy Rewards® Mastercard® card for purchases at Speedway."
@@ -138,7 +138,7 @@
 		"title": "Complete Guide to Sunoco Go Rewards by Sunoco",
 		"author": "John Smith",
 		"date": "July 15, 2024",
-		"thumbnail": "articles/sunocogo.webp",
+		"thumbnail": "thumbnails/sunocogo.webp",
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Sunoco-Go-Rewards-by-Sunoco.md",
 		"intro":"Sunoco offers various ways to earn and redeem gas rewards at participating stations."
@@ -147,7 +147,7 @@
 		"title": "Complete Guide to Texaco Rewards by Texaco",
 		"author": "John Smith",
 		"date": "July 16, 2024",
-		"thumbnail": "articles/texaco.webp",
+		"thumbnail": "thumbnails/texaco.webp",
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Texaco-Rewards-by-Texaco.md",
 		"intro":"Earn 5 points per gallon to save between 5¢ to 50¢ off per gallon."
