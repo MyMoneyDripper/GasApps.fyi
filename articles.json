@@ -151,6 +151,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Texaco-Rewards-by-Texaco.md",
 		"intro":"Earn 5 points per gallon to save between 5¢ to 50¢ off per gallon."
+	},
+	{
+		"title": "Complete Guide to the OneTouch Fuel Rewards Program by Safeway",
+		"author": "John Smith",
+		"date": "September 25, 2024",
+		"thumbnail": "thumbnails/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-the-OneTouch-Fuel-Rewards-Program-by-Safeway.md",
+		"intro":"The OneTouch Fuel Rewards program by Safeway provides customers with an easy method to save gas money while buying groceries."
 	}
 ]
   
