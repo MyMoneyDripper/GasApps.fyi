@@ -160,6 +160,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-the-OneTouch-Fuel-Rewards-Program-by-Safeway.md",
 		"intro":"The OneTouch Fuel Rewards program by Safeway provides customers with an easy method to save gas money while buying groceries."
+	},
+	{
+		"title": "Complete Guide to the Kroger Fuel Points Program",
+		"author": "John Smith",
+		"date": "September 26, 2024",
+		"thumbnail": "thumbnails/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-the-Kroger-Fuel-Points-Program.md",
+		"intro":"The Kroger Fuel Points program is a popular rewards system designed to help shoppers save on fuel at participating gas stations."
 	}
 ]
   
