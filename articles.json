@@ -169,6 +169,16 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-the-Kroger-Fuel-Points-Program.md",
 		"intro":"The Kroger Fuel Points program is a popular rewards system designed to help shoppers save on fuel at participating gas stations."
+	},
+	{
+		"title": "Complete Guide to the Stop & Shop Gas Rewards Program",
+		"author": "John Smith",
+		"date": "September 27, 2024",
+		"thumbnail": "thumbnails/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-the-Stop-&-Shop-Gas-Rewards-Program.md",
+		"intro":"The Stop & Shop Gas Rewards Program is a loyalty program designed to reward customers with fuel savings for their grocery purchases."
 	}
+	
 ]
   
