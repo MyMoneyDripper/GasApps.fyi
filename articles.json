@@ -178,7 +178,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-the-Stop-&-Shop-Gas-Rewards-Program.md",
 		"intro":"The Stop & Shop Gas Rewards Program is a loyalty program designed to reward customers with fuel savings for their grocery purchases."
+	},
+	{
+		"title": "Complete Guide to the Albertsons Gas Rewards Program",
+		"author": "John Smith",
+		"date": "September 28, 2024",
+		"thumbnail": "thumbnails/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-the-Albertsons-Gas-Rewards-Program.md",
+		"intro":"Albertsons allows customers to earn points on their purchases, which can then be redeemed for discounts on gas at participating gas stations like Chevron and Texaco."
 	}
-	
 ]
   
