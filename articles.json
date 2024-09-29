@@ -187,6 +187,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-the-Albertsons-Gas-Rewards-Program.md",
 		"intro":"Albertsons allows customers to earn points on their purchases, which can then be redeemed for discounts on gas at participating gas stations like Chevron and Texaco."
+	},
+	{
+		"title": "Complete Guide to the Piggly Wiggly Gas Rewards Program",
+		"author": "John Smith",
+		"date": "September 29, 2024",
+		"thumbnail": "thumbnails/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-the-Piggly-Wiggly-Gas-Rewards-Program.md",
+		"intro":"Piggly Wiggly, a beloved grocery chain with deep roots in the community, offers its customers more than just quality groceries at affordable prices."
 	}
 ]
   
