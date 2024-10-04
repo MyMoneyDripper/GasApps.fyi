@@ -196,6 +196,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-the-Piggly-Wiggly-Gas-Rewards-Program.md",
 		"intro":"Piggly Wiggly, a beloved grocery chain with deep roots in the community, offers its customers more than just quality groceries at affordable prices."
+	},
+	{
+		"title": "Complete Guide to Ingles Markets Fuel Points Program",
+		"author": "John Smith",
+		"date": "October 4, 2024",
+		"thumbnail": "thumbnails/image1.png",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-Ingles-Markets-Fuel-Points-Program.md",
+		"intro":"The Ingles Markets Fuel Points Program offers a practical solution for loyal shoppers looking to stretch their dollars further."
 	}
 ]
   
