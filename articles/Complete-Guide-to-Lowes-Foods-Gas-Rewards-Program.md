@@ -106,7 +106,7 @@ While the program offers several benefits, there are a few limitations to keep i
 - **Need for Speedway Card**: To redeem points at Speedway stations, you’ll need to link your Fresh Rewards card with a Speedy Rewards card, adding an extra step to the process.  
 - **Non-Applicability to Certain Purchases**: Some items like gift cards, alcohol, and prescriptions may not qualify for earning points, so be sure to check the program’s terms and conditions.
 
-### **FAQ
+### FAQ
 
 **Q: How long do Gas Rewards last?**
 

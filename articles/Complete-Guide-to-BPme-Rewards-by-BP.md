@@ -17,7 +17,7 @@ The BPme Rewards Program is a loyalty initiative by BP and Amoco designed to rew
 
 Imagine earning points every time you fill up your tank, which can then be redeemed for discounts on future fuel purchases. Plus, with special promotions and bonus rewards, the BPme Rewards Program adds a bit of excitement to your regular refueling routine. Whether you're a commuter, a road trip enthusiast, or a delivery driver, this program can make a noticeable difference in your fuel expenses.
 
-### **BPme Reward’s program’s Features
+### BPme Reward’s program’s Features
 
 The BPme Rewards Program offers a variety of features designed to make fueling up more convenient and cost-effective:
 
@@ -60,27 +60,27 @@ Accumulating points with the BPme Rewards Program is easy and offers various way
 
 By utilizing these earning opportunities, you can quickly accumulate points and enjoy substantial savings on your fuel expenses.
 
-### **Tips for Maximizing Earnings with the BPme Rewards Program**
+### Tips for Maximizing Earnings with the BPme Rewards Program
 
 To get the most out of the BPme Rewards program, simply implement the following strategies. These tips can significantly boost your savings. 
 
-## **Tip #1: Use the BPme Rewards Visa Credit Card**
+**Tip #1: Use the BPme Rewards Visa Credit Card**
 
 Sign up for the BPme Rewards Visa to enjoy substantial savings. You'll get 30 cents off per gallon at BP/Amoco stations for the first 60 days, and 15 cents off per gallon thereafter. Additionally, this card offers 5% cash back on non-fuel BP purchases, 3% on groceries, and 3% on dining, which can add up to significant rewards over time.
 
-## **Tip #2: Link Your Payment Method to the BPme App**
+**Tip #2: Link Your Payment Method to the BPme App**
 
 Ensure your payment method is linked to the BPme app to automatically earn a 5 cents per gallon discount on fuel purchases. Regularly check the BPme app for special bonus offers and promotions to maximize your savings.
 
-## **Tip #3: Maintain $100+ Monthly Fuel Spend**
+**Tip #3: Maintain $100+ Monthly Fuel Spend**
 
 To keep receiving the 5 cents per gallon discount after the initial month, make sure you spend at least $100 on fuel each month. This spending threshold helps you maintain the savings consistently.
 
-## **Tip #4: Take Advantage of the Price Match Feature**
+**Tip #4: Take Advantage of the Price Match Feature**
 
 For a nominal $0.99 monthly fee, subscribe to the app's price match feature. This will automatically match the lowest fuel price within a half-mile radius, ensuring you always get the best deal available.
 
-## **Tip #5: Redeem Rewards Strategically**
+**Tip #5: Redeem Rewards Strategically**
 
 Use your accumulated rewards points wisely by redeeming them for fuel discounts, gift cards, or cash back. You can also split payments between rewards points and other payment methods for added flexibility and maximized savings.
 
@@ -119,7 +119,7 @@ These features collectively make the BPme app a convenient tool for managing fue
 
 These pros and cons offer a balanced view of the BPme Rewards Program, helping potential users make an informed decision
 
-### **FAQ’s:**
+### FAQ
 
 **1. How do I earn and redeem BPme Rewards points?**
 
@@ -141,7 +141,7 @@ Rewards and discounts must be applied at the point of purchase and cannot be add
 
 Points cannot be earned on tobacco, phone cards, baby milk, stamps, utility cards, e-top-ups, and lottery items. Not all BP stations participate; check for participating locations.
 
-### **Final Remark:**
+### Final Remark
 
 The BPme Rewards Program offers a user-friendly and practical way for drivers to save on fuel costs, thanks to its intuitive app, instant savings, and multiple payment options. Features like fuel consumption tracking and digital receipt management enhance convenience for regular BP and Amoco customers.
 
