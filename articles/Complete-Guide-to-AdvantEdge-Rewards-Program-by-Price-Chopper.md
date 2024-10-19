@@ -2,8 +2,6 @@
 
 The [Price Chopper AdvantEdge Rewards Program](https://www.pricechopper.com/rewards/) is a comprehensive loyalty program aimed at frequent shoppers who want to stretch their dollars further. Whether you’re a regular grocery shopper or looking to save on fuel, this guide will help you unlock the full potential of the program. By understanding how the program works, you can accumulate points faster, redeem them strategically, and even give back to your community.
 
----
-
 ### **Key Takeaways:**
 
 * **Earn Points on Purchases:** Every dollar spent at participating stores like Price Chopper, Market 32, and Market Bistro earns 1 point. You can also earn additional points through promotional events, gift card purchases, and online shopping via the app.  
@@ -12,15 +10,11 @@ The [Price Chopper AdvantEdge Rewards Program](https://www.pricechopper.com/rewa
 * **Charitable Giving:** One of the unique aspects of the AdvantEdge program is the ability to donate your points to charities, helping support causes close to your heart.  
 * **Bonus Point Opportunities:** Points can be accumulated faster during special promotional periods. Be on the lookout for events where gift card purchases, seasonal promotions, or specific product categories offer additional rewards.
 
----
-
 ### **What is the AdvantEdge Rewards Program?**
 
 The Price Chopper AdvantEdge Rewards Program is a loyalty initiative designed to reward customers for their regular purchases at Price Chopper, Market 32, and Market Bistro. For every dollar spent, you earn 1 point, and these points can be redeemed for various rewards. The program replaced previous loyalty initiatives, streamlining the experience to offer easier ways to earn, track, and redeem points. It’s an excellent way for shoppers to save money on everyday groceries or gas. By integrating the program with the Price Chopper app, members can keep track of their earnings, access special offers, and manage their accounts digitally.
 
 Beyond basic savings, the program appeals to a wide range of customers with the flexibility to donate points to charitable causes or redeem points for non-grocery-related benefits like magazine subscriptions. For customers who purchase gas regularly or those who appreciate the opportunity to support their community, this program delivers a multi-faceted reward system.
-
----
 
 ### **AdvantEdge Rewards Program Features**
 
@@ -30,8 +24,6 @@ Beyond basic savings, the program appeals to a wide range of customers with the 
 * **Fuel Savings Integration:** One of the most attractive features of the program is the gas discount option. Customers can redeem 100 points for 5¢ off per gallon at participating Sunoco stations, which can be used on up to 20 gallons per visit. This is a great way to offset rising gas prices and increase the value of each dollar spent at the grocery store.  
 * **Track and Manage Points:** Through the Price Chopper mobile app, members can easily track their point balance, monitor promotional offers, and check transaction history. This level of transparency ensures that customers know exactly how close they are to earning rewards.
 
----
-
 ### **How to Sign Up for AdvantEdge Rewards**
 
 **Step-by-Step Registration Process:**
@@ -40,8 +32,6 @@ Beyond basic savings, the program appeals to a wide range of customers with the 
 2. **App Registration:** Download the Price Chopper app, and follow a similar process. Enter your personal information and confirm your phone number via SMS to complete the setup. The app offers real-time tracking of your points and allows for convenient redemption while shopping.  
 3. **In-Store Registration:** If you prefer a more hands-on approach, you can sign up at any Price Chopper, Market 32, or Market Bistro location. Just ask the cashier or customer service desk for an AdvantEdge card.
 
----
-
 ### **How to Earn AdvantEdge Rewards Points**
 
 The key to maximizing your rewards is knowing how to accumulate points efficiently. Here’s how you can earn points:
@@ -49,8 +39,6 @@ The key to maximizing your rewards is knowing how to accumulate points efficient
 * **Grocery Purchases:** For every dollar spent at Price Chopper, Market 32, or Market Bistro, you earn 1 point. This applies to almost all purchases, though some exceptions (like gift cards and alcohol) may apply.  
 * **Bonus Point Promotions:** Keep an eye out for special promotions where you can earn extra points. For example, during certain times of the year, buying specific products or categories of items might earn you 2x or 3x the points. Purchasing gift cards also regularly earns extra points.  
 * **Seasonal Promotions:** During the holiday season, Price Chopper often runs campaigns where customers can earn additional points on items like turkeys, hams, or other holiday-related purchases. These are excellent opportunities to boost your points quickly.
-
----
 
 ### **How to Get the Most out of AdvantEdge Rewards**
 
@@ -110,20 +98,16 @@ Another tip to get more out of the program is to sign up for Price Chopper’s A
 
 Additionally, look out for special digital coupons that may give you bonus points on certain items. These types of promotions are an easy way to rack up extra points quickly and maximize your rewards over time.
 
----
-
-**Pros of the Price Chopper AdvatEdge Rewards Program**
+### **Pros of the Price Chopper AdvatEdge Rewards Program**
 
 * **Flexible Redemption:** Customers can redeem points for groceries, gas, donations, and even sweepstakes entries.  
 * **Mobile App Integration:** Makes it easy to track points, view special offers, and access exclusive promotions.  
 * **Bonus Point Offers:** Frequent promotions make it easy to earn points quickly, especially during the holidays or when buying gift cards.
 
-**Cons of the Price Chopper AdvatEdge Rewards Program**
+### **Cons of the Price Chopper AdvatEdge Rewards Program**
 
 * **Points Expiration:** Points expire after a set period if not used, which can be a drawback for infrequent shoppers.  
 * **Limited Redemption Locations:** Gas discounts are only available at participating Sunoco stations, which may not be convenient for all customers.
-
----
 
 ### **Frequently Asked Questions (FAQ)**
 
