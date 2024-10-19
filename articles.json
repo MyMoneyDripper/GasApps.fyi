@@ -241,6 +241,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-the-myPerks-Program-by-Giant-Eagle.md",
 		"intro":"Giant Eagle's myPerks program offers a solution by allowing frequent shoppers to earn rewards on everyday purchases such as groceries, fuel, and prescriptions."
+	},
+	{
+		"title": "Complete Guide to Price Chopper AdvantEdge Rewards Program",
+		"author": "John Smith",
+		"date": "October 19, 2024",
+		"thumbnail": "thumbnails/pricechopper.webp",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-AdvantEdge-Rewards-Program-by-Price-Chopper.md",
+		"intro":"The Price Chopper AdvantEdge Rewards Program is a comprehensive loyalty program aimed at frequent shoppers who want to stretch their dollars further."
 	}
 ]
   
