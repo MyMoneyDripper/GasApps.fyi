@@ -243,13 +243,22 @@
 		"intro":"Giant Eagle's myPerks program offers a solution by allowing frequent shoppers to earn rewards on everyday purchases such as groceries, fuel, and prescriptions."
 	},
 	{
-		"title": "Complete Guide to Price Chopper AdvantEdge Rewards Program",
+		"title": "Complete Guide to AdvantEdge Rewards Program by Price Chopper",
 		"author": "John Smith",
 		"date": "October 19, 2024",
 		"thumbnail": "thumbnails/pricechopper.webp",
 		"featured": false,
 		"path": "articles/Complete-Guide-to-AdvantEdge-Rewards-Program-by-Price-Chopper.md",
 		"intro":"The Price Chopper AdvantEdge Rewards Program is a comprehensive loyalty program aimed at frequent shoppers who want to stretch their dollars further."
+	},
+	{
+		"title": "Complete Guide to For U Rewards Program by Shaw's",
+		"author": "John Smith",
+		"date": "October 21, 2024",
+		"thumbnail": "thumbnails/shaws.webp",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-For-U-Rewards-Program-by-Shaws.md",
+		"intro":"Shaw’s For U™ is a loyalty rewards program designed to make everyday grocery shopping more rewarding."
 	}
 ]
   
