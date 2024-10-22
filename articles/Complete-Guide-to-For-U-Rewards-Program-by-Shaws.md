@@ -2,7 +2,7 @@
 
 In a competitive grocery landscape, loyalty programs are designed to offer substantial savings, and [Shaw's For U™ Rewards Program](https://www.shaws.com/lp/chevron.2653.html) is no exception. This detailed guide explains how you can earn and redeem rewards, gain access to personalized deals, and maximize your grocery and fuel savings by participating in Shaw's For U™ program.
 
-#### Key Takeaways
+### Key Takeaways
 
 * **Earn Points on Purchases**: Accumulate points every time you shop and redeem them for discounts on groceries and gas.  
 * **Personalized Offers**: Access exclusive deals tailored to your shopping habits.  
@@ -16,7 +16,7 @@ Shaw’s For U™ is a loyalty rewards program designed to make everyday grocery
 
 For consumers looking to combine grocery and fuel savings, this program offers an ideal balance of convenience, savings, and personalized benefits.
 
-#### Key Features of Shaw's For U™ Rewards Program
+### Key Features of Shaw's For U™ Rewards Program
 
 1. **Personalized Deals and Discounts**  
    The For U™ program allows users to receive deals tailored specifically to their shopping habits. Through data analysis, Shaw’s offers shoppers customized discounts on items they frequently buy or are likely to purchase based on past behavior. These personalized deals can be clipped digitally, and they automatically apply at checkout.  
