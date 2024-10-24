@@ -58,7 +58,7 @@ Redeeming your earned fuel perks is just as easy as earning them. When you’re 
 
 The Pump Perks program at Shop 'n Save offers shoppers significant savings on fuel by rewarding them for their grocery purchases. To make the most of this program, it's essential to adopt some savvy strategies and be aware of specific opportunities. Below are detailed ways to maximize your savings and Pump Perks accumulation.
 
-** Tip #1: Stack Your Purchases for Maximum Perk Accumulation**
+**Tip #1: Stack Your Purchases for Maximum Perk Accumulation**
 
 One of the easiest ways to optimize your Pump Perks earnings is by stacking your purchases. Instead of making smaller, frequent grocery trips, plan your shopping to spend in increments of $50 per transaction. For every $50 spent, you earn 10 cents off per gallon, so larger purchases help you accumulate discounts more quickly. For instance, if you spend $150 in one trip, you immediately earn 30 cents off per gallon in one transaction. This method is particularly useful if you’re stocking up on pantry staples or buying in bulk.
 
