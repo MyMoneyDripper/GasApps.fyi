@@ -277,6 +277,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Pump-Perks-by-Shop-n-Save.md",
 		"intro":"The Shop ‘n Save Extra Pump Perks program offers a way for shoppers to cut down on fuel costs, making each grocery trip more rewarding."
+	},
+	{
+		"title": "Complete Guide to Fuel Points by Pay-Less Super Markets",
+		"author": "John Smith",
+		"date": "October 26, 2024",
+		"thumbnail": "thumbnails/fuelpoints.webp",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-Fuel-Points-by-Pay-Less-Super Markets.md",
+		"intro":"The Fuel Points program by Pay-Less Super Markets offers a simple and effective way for shoppers to earn fuel discounts when they purchase groceries."
 	}
 ]
   
