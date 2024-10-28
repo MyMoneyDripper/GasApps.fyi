@@ -102,8 +102,6 @@ The **Pay-Less App** is an essential tool for anyone looking to make the most of
 * **Bonus Point Opportunities**: Regular gift card and promotion-based bonus point opportunities.  
 * **Fuel Station Availability**: Points can be redeemed at Kroger Fuel Centers and Shell stations, giving plenty of options.
 
----
-
 ### **Cons of the Fuel Points by Pay-Less**
 
 * **Points Expiration**: Fuel points expire at the end of the month following the month they are earned, which may lead to unintentional point loss.  
