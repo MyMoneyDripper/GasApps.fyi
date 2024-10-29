@@ -294,7 +294,16 @@
 		"thumbnail": "thumbnails/hyveeperks.webp",
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Hy-Vee-PERKS-Fuel-Saver-Program.md",
-		"intro":"Hy-Vee PERKS allows you to access Exclusive PERKS Prices, earn discounts on gas when you purchase designated products at Hy-Vee and save more with exclusive deals. "
+		"intro":"Hy-Vee PERKS allows you to access Exclusive PERKS Prices, earn discounts on gas when you purchase designated products at Hy-Vee and save more with exclusive deals."
+	},
+	{
+		"title": "Complete Guide to My Cub Rewards by Cub Foods",
+		"author": "John Smith",
+		"date": "October 29, 2024",
+		"thumbnail": "thumbnails/mycubrewards.webp",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-My-Cub-Rewards-by-Cub-Foods.md",
+		"intro":"My Cub Rewards program offers points on groceries and prescriptions that can be redeemed for discounts on fuel, making it an essential tool for budget-conscious consumers."
 	}
 ]
   
