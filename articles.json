@@ -304,6 +304,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-My-Cub-Rewards-by-Cub-Foods.md",
 		"intro":"My Cub Rewards program offers points on groceries and prescriptions that can be redeemed for discounts on fuel, making it an essential tool for budget-conscious consumers."
+	},
+	{
+		"title": "Complete Guide to QFC Fuel Points by Quality Food Centers",
+		"author": "John Smith",
+		"date": "October 30, 2024",
+		"thumbnail": "thumbnails/qfc.webp",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-QFC-Fuel-Points-by-Quality-Food-Centers.md",
+		"intro":"The QFC Fuel Points Program offers an easy, rewarding way to earn discounts on fuel through everyday shopping."
 	}
 ]
   

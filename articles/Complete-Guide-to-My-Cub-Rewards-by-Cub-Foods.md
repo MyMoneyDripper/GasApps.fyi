@@ -1,6 +1,6 @@
 # Complete Guide to My Cub Rewards by Cub Foods: Maximize Fuel Savings and Grocery Perks
 
-With rising fuel and grocery costs, [**My Cub Rewards**](https: /www.cub.com/sm/pickup/rsid/1612/fuel-rewards) provides valuable savings for Cub Foods shoppers. This program offers points on groceries and prescriptions that can be redeemed for discounts on fuel, making it an essential tool for budget-conscious consumers. This guide will help you understand how to earn and redeem points, maximize savings, and utilize additional perks for maximum value.
+With rising fuel and grocery costs, [My Cub Rewards](https: /www.cub.com/sm/pickup/rsid/1612/fuel-rewards) provides valuable savings for Cub Foods shoppers. This program offers points on groceries and prescriptions that can be redeemed for discounts on fuel, making it an essential tool for budget-conscious consumers. This guide will help you understand how to earn and redeem points, maximize savings, and utilize additional perks for maximum value.
 
 ### **Key Takeaways**
 
@@ -95,7 +95,7 @@ The app’s convenient features help you stay organized and maximize savings fro
 * **Limited Redemption Locations:** Fuel discounts apply only at participating gas stations. 
 * **Restrictions on Certain Items:** Some items, such as alcohol and tobacco, do not qualify for points.
 
-**FAQ’s**
+### Frequently Asked Questions (FAQ)
 
 **Q. Is there a fee to join My Cub Rewards?** 
 

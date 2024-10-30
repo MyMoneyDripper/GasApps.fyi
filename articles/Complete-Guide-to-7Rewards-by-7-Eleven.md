@@ -78,7 +78,7 @@ Maximizing your earnings with the 7 Rewards program requires a strategic approac
 - **No Fuel Points Redemption:** Points cannot be used to get discounts on fuel, limiting the ways in which members can use their earned points.
 - **Technical Issues:** Some frequent users may experience technical issues with the app, which can hinder the process of earning and redeeming points.
 
-### FAQ’s
+### Frequently Asked Questions (FAQ)
 
 **Q: Can I earn reward points on all purchases?**
 
