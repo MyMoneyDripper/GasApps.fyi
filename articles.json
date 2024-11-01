@@ -322,6 +322,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Fred-Fuel-Program-by-Fred Meyer.md",
 		"intro":"The Fred Meyer Fuel Points Program provides a simple and effective way to earn fuel discounts while shopping for groceries and essentials."
+	},
+	{
+		"title": "Complete Guide to Fry's Fuel Points by Fred Meyer",
+		"author": "John Smith",
+		"date": "November 1, 2024",
+		"thumbnail": "thumbnails/frysfuelprogram.webp",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-Frys-Fuel-Points-by-Fred-Meyer.md",
+		"intro":"Fry’s Fuel Points Program is designed to help customers offset these costs by earning points on everyday purchases."
 	}
 ]
   
