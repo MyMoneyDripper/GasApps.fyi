@@ -313,6 +313,15 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-QFC-Fuel-Points-by-Quality-Food-Centers.md",
 		"intro":"The QFC Fuel Points Program offers an easy, rewarding way to earn discounts on fuel through everyday shopping."
+	},
+	{
+		"title": "Complete Guide to Fred Fuel Program by Fred Meyer",
+		"author": "John Smith",
+		"date": "October 31, 2024",
+		"thumbnail": "thumbnails/fredfuelprogram.webp",
+		"featured": false,
+		"path": "articles/Complete-Guide-to-Fred-Fuel-Program-by-Fred Meyer.md",
+		"intro":"The Fred Meyer Fuel Points Program provides a simple and effective way to earn fuel discounts while shopping for groceries and essentials."
 	}
 ]
   
