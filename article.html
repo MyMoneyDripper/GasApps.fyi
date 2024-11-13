@@ -35,37 +35,6 @@
         font-style: normal; /* If the font is normal */
       }
 
-      header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #fff;
-        color: #333;
-        padding: 20px;
-      }
-
-      .header-left {
-        display: flex;
-        align-items: center;
-      }
-
-      .header-left img {
-        margin-left: 300px;
-        padding-right: 2px;
-        text-align: right;
-      }
-
-      .header-right {
-        display: flex;
-        margin-right: 300px;
-      }
-
-      .header-right button {
-        margin-left: 10px;
-        font-family: 'Toboggan-Light', sans-serif;
-        text-align: center;
-      }
-
       .contact-button {
         background-color: #f9f4f4;
         border-radius: 20px;
@@ -396,18 +365,6 @@
     </style>
   </head>
   <body>
-    <header>
-      <a href="index.html" style="color: inherit;text-decoration:none;">
-        <div class="header-left">
-          <img src="icons/gs.png" alt="Logo" style="width: 30px; height: auto;"> 
-          <p>GasApps.fyi</p>
-        </div>
-      </a>
-      <div class="header-right">
-        <a href="guides.html"><button class="disclosure-button">Guides</button></a>
-        <button class="contact-button">Contact</button>
-      </div>
-    </header>
     <div class="container">
       <div id="article-content" class="mt-5">
         <!-- Article content will be inserted here -->
@@ -480,6 +437,13 @@
 
   <script src="scripts/scripts.js"></script>
   <script>
+        
+    // Load the header
+    fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.body.insertAdjacentHTML('afterbegin', data);
+    });
     // Get the modal
     var modal = document.getElementById("contactModal");
 
