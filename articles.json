@@ -331,6 +331,16 @@
 		"featured": false,
 		"path": "articles/Complete-Guide-to-Frys-Fuel-Points-by-Frys-Food.md",
 		"intro":"Fry’s Fuel Points Program is designed to help customers offset these costs by earning points on everyday purchases."
+	},
+	{
+		"title": "Complete Guide to Upside",
+		"author": "John Smith",
+		"date": "November 23, 2024",
+		"thumbnail": "thumbnails/upside.webp",
+		"featured": true,
+		"path": "articles/Complete-Guide-to-Upside.md",
+		"intro":"Upside is a cashback app that helps you save money on gas, groceries, and dining out. It claims to give you real cashback, not points or credits."
 	}
+	
 ]
   
