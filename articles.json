@@ -340,7 +340,15 @@
 		"featured": true,
 		"path": "articles/Complete-Guide-to-Upside.md",
 		"intro":"Upside is a cashback app that helps you save money on gas, groceries, and dining out. It claims to give you real cashback, not points or credits."
+	},
+	{
+		"title": "Complete Guide to GasBuddy",
+		"author": "John Smith",
+		"date": "November 24, 2024",
+		"thumbnail": "thumbnails/gasbuddy.webp",
+		"featured": true,
+		"path": "articles/Complete-Guide-to-GasBuddy.md",
+		"intro":"The GasBuddy app makes it easy for drivers to track down low gas prices and earn rewards on their fuel purchases."
 	}
-	
 ]
   
