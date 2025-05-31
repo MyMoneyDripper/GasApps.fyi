@@ -1,31 +1,31 @@
 [
-	{
-		"title": "The Complete Guide to Saving Money with Gas Apps",
-		"author": "John Smith",
-		"date": "June 1, 2024",
-		"thumbnail": "thumbnails/SavingMoneywithGasApps.webp",
-		"featured": true,
-		"path": "articles/The-Complete-Guide-to-Saving-Money-with-Gas-Apps.md",
-		"intro":"This guide provides comprehensive tips and insights on using gas apps to save money on fuel purchases."
-	},
-	{
-		"title": "Ultimate List of Gas Loyalty Programs",
-		"author": "John Smith",
-		"date": "June 2, 2024",
-		"thumbnail": "thumbnails/GasLoyaltyPrograms.webp",
-		"featured": false,
-		"path": "articles/Ultimate-List-of-Gas-Loyalty-Programs.md",
-		"intro":"This article details various gas loyalty programs, highlighting the benefits and features of each to help consumers save on fuel costs."
-	},
-	{
-		"title": "Ultimate List of Grocery Fuel Rewards Programs",
-		"author": "John Smith",
-		"date": "June 3, 2024",
-		"thumbnail": "thumbnails/GroceryFuelRewardsPrograms.webp",
-		"featured": false,
-		"path": "articles/Ultimate-List-of-Grocery-Fuel-Rewards-Programs.md",
-		"intro":"This article offers an in-depth overview of grocery fuel rewards programs, explaining how shoppers can earn fuel discounts through their regular grocery purchases."
-	},
+	// {
+	// 	"title": "The Complete Guide to Saving Money with Gas Apps",
+	// 	"author": "John Smith",
+	// 	"date": "June 1, 2024",
+	// 	"thumbnail": "thumbnails/SavingMoneywithGasApps.webp",
+	// 	"featured": true,
+	// 	"path": "articles/The-Complete-Guide-to-Saving-Money-with-Gas-Apps.md",
+	// 	"intro":"This guide provides comprehensive tips and insights on using gas apps to save money on fuel purchases."
+	// },
+	// {
+	// 	"title": "Ultimate List of Gas Loyalty Programs",
+	// 	"author": "John Smith",
+	// 	"date": "June 2, 2024",
+	// 	"thumbnail": "thumbnails/GasLoyaltyPrograms.webp",
+	// 	"featured": false,
+	// 	"path": "articles/Ultimate-List-of-Gas-Loyalty-Programs.md",
+	// 	"intro":"This article details various gas loyalty programs, highlighting the benefits and features of each to help consumers save on fuel costs."
+	// },
+	// {
+	// 	"title": "Ultimate List of Grocery Fuel Rewards Programs",
+	// 	"author": "John Smith",
+	// 	"date": "June 3, 2024",
+	// 	"thumbnail": "thumbnails/GroceryFuelRewardsPrograms.webp",
+	// 	"featured": false,
+	// 	"path": "articles/Ultimate-List-of-Grocery-Fuel-Rewards-Programs.md",
+	// 	"intro":"This article offers an in-depth overview of grocery fuel rewards programs, explaining how shoppers can earn fuel discounts through their regular grocery purchases."
+	// },
 	{
 		"title": "Complete Guide to BPme Rewards by BP",
 		"author": "John Smith",
