@@ -1,480 +1,590 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <link rel="icon" type="image/png" href="icons/gs.png">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="icons/gs.png">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Article Detail</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Include marked.js from a reliable CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="icon" type="image/png" href="icons/gs.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article Detail</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Include marked.js from a reliable CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="icon" type="image/png" href="icons/gs.png">
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQYETW43LJ"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    if (location.hostname !== 'localhost') {
-      gtag('js', new Date());
-      gtag('config', 'G-DQYETW43LJ');
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQYETW43LJ"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  if (location.hostname !== 'localhost') {
+    gtag('js', new Date());
+    gtag('config', 'G-DQYETW43LJ');
+  }
+  </script>
+  <style>
+    /* Custom styles */
+    @font-face {
+      font-family: 'Toboggan-Light';
+      src: url('fonts/Toboggan-Light.otf') format('opentype');
     }
-    </script>
-    <style>
-      /* Custom styles */
-      @font-face {
-        font-family: 'Toboggan-Light';
-        src: url('fonts/Toboggan-Light.otf') format('opentype');
-      }
-      @font-face {
-        font-family: 'HelveticaNowText-Bold-Demo';
-        src: url('fonts/helveticanowtext-bold-demo.ttf') format('truetype');
-        font-weight: bold; /* If the font is bold */
-        font-style: normal; /* If the font is normal */
-      }
+    @font-face {
+      font-family: 'HelveticaNowText-Bold-Demo';
+      src: url('fonts/helveticanowtext-bold-demo.ttf') format('truetype');
+      font-weight: bold; /* If the font is bold */
+      font-style: normal; /* If the font is normal */
+    }
 
-      .contact-button {
-        background-color: #f9f4f4;
-        border-radius: 20px;
-      }
+    .contact-button {
+      background-color: #f9f4f4;
+      border-radius: 20px;
+    }
 
-      h1 {
-        font-family: 'HelveticaNowText-Bold-Demo', sans-serif;
-        font-weight: bolder;
-        font-size: 2.3em;
-        color: #000000;
-        letter-spacing: -2px;
-        text-align: center; /* Center align on mobile */
-        margin-top: 30px; /* Reduce top margin for mobile */
+    h1 {
+      font-family: 'HelveticaNowText-Bold-Demo', sans-serif;
+      font-weight: bolder;
+      font-size: 2.3em;
+      color: #000000;
+      letter-spacing: -2px;
+      text-align: center; /* Center align on mobile */
+      margin-top: 30px; /* Reduce top margin for mobile */
+    /* Center align on mobile */
       /* Center align on mobile */
-        /* Center align on mobile */
-        max-width: 90%; /* Limit width on mobile */
-      }
+      max-width: 90%; /* Limit width on mobile */
+    }
 
-      h2 {
-        font-size: 1.5em; /* Increase font size for mobile */
-        color: #000;
-        font-family: 'Toboggan-Light', sans-serif;
-        text-align: center; /* Center align on mobile */
-        margin-top: 20px; /* Keep consistent margin on mobile */
-        /* Center align on mobile */
-        /* Center align on mobile */
-        max-width: 90%; /* Limit width on mobile */
-      }
-
-      h3 {
-        font-size: 1.5em; /* Increase font size for mobile */
-        color: #000;
-        font-family: 'HelveticaNowText-Bold-Demo', sans-serif;
-        text-align: center; /* Center align on mobile */
-        margin-top: 40px; /* Keep consistent margin on mobile */
+    h2 {
+      font-size: 1.5em; /* Increase font size for mobile */
+      color: #000;
+      font-family: 'Toboggan-Light', sans-serif;
+      text-align: center; /* Center align on mobile */
+      margin-top: 20px; /* Keep consistent margin on mobile */
       /* Center align on mobile */
       /* Center align on mobile */
-        max-width: 90%; /* Limit width on mobile */
+      max-width: 90%; /* Limit width on mobile */
+    }
+
+    h3 {
+      font-size: 1.5em; /* Increase font size for mobile */
+      color: #000;
+      font-family: 'HelveticaNowText-Bold-Demo', sans-serif;
+      text-align: center; /* Center align on mobile */
+      margin-top: 40px; /* Keep consistent margin on mobile */
+    /* Center align on mobile */
+    /* Center align on mobile */
+      max-width: 90%; /* Limit width on mobile */
+    }
+
+    @media (min-width: 768px) {
+      h1, h2, h3 {
+        text-align: left; /* Align left for larger screens */
+        /* Reset margin for larger screens */
       }
 
-      @media (min-width: 768px) {
-        h1, h2, h3 {
-          text-align: left; /* Align left for larger screens */
-          /* Reset margin for larger screens */
-        }
+    }
 
-      }
+    .guide-card {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%; /* Ensure full width in smaller screens */
+      margin: 10px auto;
+      padding: 0;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
 
+    .guide-card img {
+      width: 100%;
+      height: auto;
+    }
+
+    @media (min-width: 768px) {
       .guide-card {
+        flex-basis: calc(40% - 30px); /* Two cards per row with 30px spacing */
+        max-width: calc(40% - 30px); /* Maximum width for each card */
+        margin-bottom: 20px; /* Spacing between rows */
+      }
+
+      #featured,
+      #all-guides {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+      }
+    }
+
+    .blog-container {
+      padding-left: 300px; /* Align with the left margin of the headings */
+      padding-right: 300px; /* Provide right padding */
+    }
+
+    .card {
+      border: none;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-title {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .card-text {
+      font-size: 1em;
+    }
+
+    .card-footer {
+      background-color: white;
+      border-top: none;
+    }
+
+    .card-footer .text-muted {
+      font-size: 0.9em;
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: transparent;
+      color: #000000;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #357ebd;
+    }
+
+    .header-left p {
+      margin: 0;
+      font-weight: bold;
+      font-size: 1.5em;
+      font-family: 'Toboggan-Light', sans-serif;
+    }
+    
+    @media (max-width: 768px) {
+      header {
         flex-direction: column;
-        max-width: 100%; /* Ensure full width in smaller screens */
-        margin: 10px auto;
-        padding: 0;
-        border: none;
-        border-radius: 15px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        overflow: hidden;
-        transition: transform 0.3s;
+        padding: 10px;
       }
 
-      .guide-card img {
-        width: 100%;
-        height: auto;
-      }
-
-      @media (min-width: 768px) {
-        .guide-card {
-          flex-basis: calc(40% - 30px); /* Two cards per row with 30px spacing */
-          max-width: calc(40% - 30px); /* Maximum width for each card */
-          margin-bottom: 20px; /* Spacing between rows */
-        }
-
-        #featured,
-        #all-guides {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-between;
-          padding: 20px;
-        }
-      }
-
-      .blog-container {
-        padding-left: 300px; /* Align with the left margin of the headings */
-        padding-right: 300px; /* Provide right padding */
-      }
-
-      .card {
-        border: none;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        transition: all 0.3s ease;
-      }
-
-      .card:hover {
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-      }
-
-      .card-title {
-        font-size: 1.5em;
+      .header-left {
         margin-bottom: 10px;
       }
 
-      .card-text {
-        font-size: 1em;
-      }
-
-      .card-footer {
-        background-color: white;
-        border-top: none;
-      }
-
-      .card-footer .text-muted {
-        font-size: 0.9em;
-      }
-
-      .btn-primary {
-        background-color: #007bff;
-        border: none;
-      }
-
-      .btn-primary:hover {
-        background-color: #0056b3;
-      }
-
-      button {
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        background-color: transparent;
-        color: #000000;
-        cursor: pointer;
-        transition: background-color 0.3s;
-      }
-
-      button:hover {
-        background-color: #357ebd;
-      }
-
-      .header-left p {
-        margin: 0;
-        font-weight: bold;
-        font-size: 1.5em;
-        font-family: 'Toboggan-Light', sans-serif;
-      }
-      
-      @media (max-width: 768px) {
-        header {
-          flex-direction: column;
-          padding: 10px;
-        }
-
-        .header-left {
-          margin-bottom: 10px;
-        }
-
-        .header-right {
-          margin-top: 10px;
-        }
-
-        .header-left img {
-          margin-left: 0;
-        }
-
-        .header-right {
-          margin-right: 0;
-        }
-
-        .blog-container {
-          padding-left: 20px; /* Reduce left padding for smaller screens */
-          padding-right: 20px; /* Ensure consistent padding */
-        }
-      }
-
-      /* Modal styles */
-      .modal {
-        display: none;
-        position: fixed;
-        z-index: 1;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgb(0,0,0);
-        background-color: rgba(0,0,0,0.4);
-        padding-top: 60px;
-      }
-
-      .modal-content {
-        background-color: #fefefe;
-        margin: 5% auto;
-        padding: 20px;
-        border: 1px solid #888;
-        width: 80%;
-        max-width: 500px;
-        border-radius: 10px;
-      }
-
-      .close {
-        color: #aaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-      }
-
-      .close:hover,
-      .close:focus {
-        color: black;
-        text-decoration: none;
-        cursor: pointer;
-      }
-
-      .modal form {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .modal .form-group {
-        display: flex;
-        justify-content: space-between;
-        gap: 20px;
-      }
-
-      .modal .form-group > div {
-        flex: 1;
-      }
-
-      .modal form label {
+      .header-right {
         margin-top: 10px;
       }
 
-      .modal form input,
-      .modal form textarea {
-        padding: 10px;
-        margin-top: 5px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        width: 100%;
-        box-sizing: border-box;
+      .header-left img {
+        margin-left: 0;
       }
 
-      .modal .button-group {
+      .header-right {
+        margin-right: 0;
+      }
+
+      .blog-container {
+        padding-left: 20px; /* Reduce left padding for smaller screens */
+        padding-right: 20px; /* Ensure consistent padding */
+      }
+    }
+
+    /* Modal styles */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0,0.4);
+      padding-top: 60px;
+    }
+
+    .modal-content {
+      background-color: #fefefe;
+      margin: 5% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 500px;
+      border-radius: 10px;
+    }
+
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .modal form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .modal .form-group {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .modal .form-group > div {
+      flex: 1;
+    }
+
+    .modal form label {
+      margin-top: 10px;
+    }
+
+    .modal form input,
+    .modal form textarea {
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .modal .button-group {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .modal form button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #357ebd;
+      color: #fff;
+      cursor: pointer;
+      font-family: 'Toboggan-Light', sans-serif;
+      transition: background-color 0.3s ease;
+    }
+
+    .modal form button:hover {
+      background-color: #255a9b;
+    }
+
+    .modal form .cancel-button {
+      background-color: #f9f4f4;
+      color: #000;
+      font-family: 'Toboggan-Light', sans-serif;
+      transition: background-color 0.3s ease;
+    }
+
+    .modal form .cancel-button:hover {
+      background-color: #e0e0e0;
+    }
+    .blog-card {
         display: flex;
-        justify-content: flex-end;
-        gap: 10px;
-        margin-top: 15px;
-      }
-
-      .modal form button {
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        background-color: #357ebd;
-        color: #fff;
-        cursor: pointer;
-        font-family: 'Toboggan-Light', sans-serif;
-        transition: background-color 0.3s ease;
-      }
-
-      .modal form button:hover {
-        background-color: #255a9b;
-      }
-
-      .modal form .cancel-button {
-        background-color: #f9f4f4;
-        color: #000;
-        font-family: 'Toboggan-Light', sans-serif;
-        transition: background-color 0.3s ease;
-      }
-
-      .modal form .cancel-button:hover {
-        background-color: #e0e0e0;
-      }
-      .blog-card {
-          display: flex;
-          border: 1px solid #ccc;
-          border-radius: 8px;
-          overflow: hidden;
-          margin-bottom: 20px;
-      }
-      
-      .blog-card img {
-          width: 100%;
-          height: auto;
-
-          object-fit: cover;
-      }
-      
-      .blog-card .content {
-          padding: 20px;
-          width: 60%;
-      }
-      
-      .blog-card h2 {
-          font-size: 24px;
-          margin-bottom: 10px;
-      }
-      
-      .blog-card p {
-          font-size: 16px;
-          line-height: 1.5;
-          margin-bottom: 10px;
-      }
-      
-      .blog-card .author {
-          font-size: 14px;
-          color: #666;
-          margin-bottom: 5px;
-      }
-      
-      .blog-card .date {
-          font-size: 14px;
-          color: #666;
-      }
-      .card-img{
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    
+    .blog-card img {
         width: 100%;
-        height: 100%; 
-      
-      }
-    hr {
-    border: 0;
-    height: 2px;
-    background: #000000;
-    margin-left: 300px ; /* Adjust margin as needed */
-    margin-right: 300px ;
-  }
+        height: auto;
 
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div id="article-content" class="mt-5">
-        <!-- Article content will be inserted here -->
-      </div>
-    </div>
-    <script>
-      // Function to fetch and render the markdown content
-      async function fetchAndRenderMarkdown() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const path = urlParams.get('path');
-        if (path) {
-          try {
-            const response = await fetch(path);
-            const markdown = await response.text();
-            const htmlContent = marked.parse(markdown);  // Use marked.parse() instead of marked()
-            document.getElementById('article-content').innerHTML = htmlContent;
+        object-fit: cover;
+    }
     
-            // Extract the title from the markdown (assuming the title is the first h1)
-            const titleMatch = markdown.match(/^# (.*)$/m);
-            if (titleMatch) {
-              document.title = titleMatch[1];
-            } else {
-              // Fallback title if no h1 is found
-              document.title = 'Article';
-            }
-          } catch (error) {
-            console.error('Error fetching the markdown file:', error);
-            document.getElementById('article-content').innerHTML = '<p>Error loading article content.</p>';
-            document.title = 'Error';
-          }
-        } else {
-          document.getElementById('article-content').innerHTML = '<p>Article not found.</p>';
-          document.title = 'Article Not Found';
-        }
-      }
+    .blog-card .content {
+        padding: 20px;
+        width: 60%;
+    }
     
-      document.addEventListener('DOMContentLoaded', fetchAndRenderMarkdown);
-    </script>
+    .blog-card h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
     
-  </body>
-  <div id="contactModal" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h1 style="text-align: left; font-size: 17px; letter-spacing: -0.5px;">Contact Us</h1>
-        <p style="font-size: 14px; color: #666; font-family: 'Toboggan-Light', sans-serif;">Fill out the form below to contact us. We will get back to you as soon as possible.</p>
-        <form>
-            <div class="form-group">
-                <div>
-                    <label for="name" style="font-size: 14px; font-family: 'Toboggan-Light', sans-serif;">Name</label>
-                    <input type="text" id="name" name="name" required style="font-family: 'Toboggan-Light', sans-serif;">
-                </div>
-                <div>
-                    <label for="email" style="font-size: 14px; font-family: 'Toboggan-Light', sans-serif;">Email</label>
-                    <input type="email" id="email" name="email" required style="font-family: 'Toboggan-Light', sans-serif;">
-                </div>
-            </div>
+    .blog-card p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+    
+    .blog-card .author {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 5px;
+    }
+    
+    .blog-card .date {
+        font-size: 14px;
+        color: #666;
+    }
+    .card-img{
+      width: 100%;
+      height: 100%; 
+    
+    }
+  hr {
+  border: 0;
+  height: 2px;
+  background: #000000;
+  margin-left: 300px ; /* Adjust margin as needed */
+  margin-right: 300px ;
+}
 
-            <label for="message" style="font-size: 14px; font-family: 'Toboggan-Light', sans-serif;">Message</label>
-            <textarea id="message" name="message" rows="4" required style="font-family: 'Toboggan-Light', sans-serif;"></textarea>
+    /* Add styles for markdown content */
+    .markdown-content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
 
-            <div class="button-group">
-                <button type="submit" style="font-family: 'Toboggan-Light', sans-serif;">Send Message</button>
-                <button type="button" class="cancel-button" style="background-color: #f9f4f4; color: #000; font-family: 'Toboggan-Light', sans-serif; transition: background-color 0.3s ease;">Cancel</button>
-            </div>
-        </form>
+    .markdown-content h1 {
+        font-size: 2.5em;
+        margin-bottom: 1em;
+        color: #333;
+    }
+
+    .markdown-content h2 {
+        font-size: 1.8em;
+        margin-top: 1.5em;
+        margin-bottom: 0.8em;
+        color: #444;
+    }
+
+    .markdown-content h3 {
+        font-size: 1.4em;
+        margin-top: 1.2em;
+        margin-bottom: 0.6em;
+        color: #555;
+    }
+
+    .markdown-content p {
+        line-height: 1.6;
+        margin-bottom: 1em;
+    }
+
+    .markdown-content ul, .markdown-content ol {
+        margin-bottom: 1em;
+        padding-left: 2em;
+    }
+
+    .markdown-content li {
+        margin-bottom: 0.5em;
+    }
+
+    .markdown-content a {
+        color: #0066cc;
+        text-decoration: none;
+    }
+
+    .markdown-content a:hover {
+        text-decoration: underline;
+    }
+
+    .markdown-content code {
+        background-color: #f5f5f5;
+        padding: 0.2em 0.4em;
+        border-radius: 3px;
+        font-family: monospace;
+    }
+
+    .markdown-content pre {
+        background-color: #f5f5f5;
+        padding: 1em;
+        border-radius: 5px;
+        overflow-x: auto;
+    }
+
+    .markdown-content blockquote {
+        border-left: 4px solid #ddd;
+        padding-left: 1em;
+        margin-left: 0;
+        color: #666;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Header will be loaded here -->
+  <div id="header-placeholder"></div>
+
+  <div class="container">
+    <div id="article-content" class="mt-5">
+      <!-- Article content will be inserted here -->
     </div>
   </div>
 
+  <!-- Contact Modal -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h1 style="text-align: left; font-size: 17px; letter-spacing: -0.5px;">Contact Us</h1>
+      <p style="font-size: 14px; color: #666; font-family: 'Toboggan-Light', sans-serif;">Fill out the form below to contact us. We will get back to you as soon as possible.</p>
+      <form>
+        <div class="form-group">
+          <div>
+            <label for="name" style="font-size: 14px; font-family: 'Toboggan-Light', sans-serif;">Name</label>
+            <input type="text" id="name" name="name" required style="font-family: 'Toboggan-Light', sans-serif;">
+          </div>
+          <div>
+            <label for="email" style="font-size: 14px; font-family: 'Toboggan-Light', sans-serif;">Email</label>
+            <input type="email" id="email" name="email" required style="font-family: 'Toboggan-Light', sans-serif;">
+          </div>
+        </div>
+        <label for="message" style="font-size: 14px; font-family: 'Toboggan-Light', sans-serif;">Message</label>
+        <textarea id="message" name="message" rows="4" required style="font-family: 'Toboggan-Light', sans-serif;"></textarea>
+        <div class="button-group">
+          <button type="submit" style="font-family: 'Toboggan-Light', sans-serif;">Send Message</button>
+          <button type="button" class="cancel-button" style="background-color: #f9f4f4; color: #000; font-family: 'Toboggan-Light', sans-serif; transition: background-color 0.3s ease;">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
 
-
+  <!-- Load scripts -->
   <script src="scripts/scripts.js"></script>
   <script>
-        
     // Load the header
     fetch('header.html')
-    .then(response => response.text())
-    .then(data => {
-      document.body.insertAdjacentHTML('afterbegin', data);
-    });
-    // Get the modal
-    var modal = document.getElementById("contactModal");
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header-placeholder').innerHTML = data;
+      })
+      .catch(error => console.error('Error loading header:', error));
 
-    // Get the button that opens the modal
-    var btn = document.querySelector(".contact-button");
+    // Mapping of old .md paths to new HTML redirects
+    const redirectMap = {
+        'articles/Complete-Guide-to-Upside.md': 'redirects/get-upside-review-how-to-save-0-25-per-gallon.html',
+        'articles/Complete-Guide-to-GasBuddy.md': 'redirects/complete-guide-to-gas-buddy-save-big-on-fuel-with-real-user-benefits.html',
+        'articles/Complete-Guide-to-BPme-Rewards-by-BP.md': 'redirects/complete-guide-to-b-pme-rewards-by-bp-maximize-fuel-savings-and-extra-perks-explained.html',
+        'articles/Complete-Guide-to-Exxon-Mobile-Rewards-by-ExxonMobile.md': 'redirects/complete-guide-to-exxon-mobile-rewards-by-exxon-mobile-maximize-fuel-savings-and-extra-perks-explained.html',
+        'articles/Complete-Guide-to-Fuel-Rewards-by-Shell.md': 'redirects/complete-guide-to-fuel-rewards-by-shell-maximize-fuel-savings-and-extra-perks-explained.html',
+        'articles/Complete-Guide-to-Chevron-Rewards-by-Chevron.md': 'redirects/complete-guide-to-chevron-rewards-by-chevron-maximize-fuel-savings-and-extra-perks-explained.html',
+        'articles/Complete-Guide-to-Inner-Circle-by-Circle-K.md': 'redirects/complete-guide-to-inner-circle-by-circle-k-maximize-fuel-savings-and-extra-perks-explained.html',
+        'articles/Complete-Guide-to-Fuel-Rewards-by-Shell.md': 'redirects/complete-guide-to-fuel-forward-by-phillips-66-pros-cons-and-tips-for-maximizing-rewards.html',
+        'articles/Complete-Guide-to-Club-Rewards-by-Speedway.md': 'redirects/complete-guide-to-club-rewards-by-speedway-in-depth-guide-to-earning-and-redeeming-points.html',
+        'articles/Complete-Guide-to-7Rewards-by-7-Eleven.md': 'redirects/complete-guide-to-7-rewards-by-7-eleven-how-to-earn-and-redeem-points-effectively.html',
+        'articles/Complete-Guide-to-Sunoco-Go-Rewards-by-Sunoco.md': 'redirects/complete-guide-to-sunoco-go-rewards-by-sunoco-how-to-maximize-your-fuel-savings.html',
+        'articles/Complete-Guide-to-Texaco-Rewards-by-Texaco.md': 'redirects/complete-guide-to-star-rewards-by-texaco-everything-you-need-to-know.html',
+        'articles/Complete-Guide-to-Refreshing-Rewards-by-Thorntons.md': 'redirects/complete-guide-to-refreshing-rewards-by-thorntons-save-on-fuel-and-snacks.html',
+        'articles/Complete-Guide-to-ValeroPay+-by-Valero.md': 'redirects/complete-guide-to-valero-pay-by-valero-how-to-save-on-fuel-and-earn-rewards.html',
+        'articles/Complete-Guide-to-Adventure-Club-Rewards-by-Maverik.md': 'redirects/complete-guide-to-adventure-club-rewards-by-maverik-benefits-drawbacks-and-tips-for-maximum-savings.html',
+        'articles/Complete-Guide-to-myRewards-Plus-by-Pilot-Flying-J.md': 'redirects/complete-guide-to-my-rewards-plus-by-pilot-flying-j-pros-cons-and-money-saving-tips.html',
+        'articles/Complete-Guide-to-the-OneTouch-Fuel-Rewards-Program-by-Safeway.md': 'redirects/complete-guide-to-the-one-touch-fuel-rewards-program-by-safeway-how-to-maximize-your-savings-on-fuel-and-benefits-explained.html',
+        'articles/Complete-Guide-to-the-Kroger-Fuel-Points-Program.md': 'redirects/complete-guide-to-the-kroger-fuel-points-program-how-to-maximize-your-savings-on-fuel-and-benefits-explained.html',
+        'articles/Complete-Guide-to-the-Stop-&-Shop-Gas-Rewards-Program.md': 'redirects/complete-guide-to-the-stop-and-shop-gas-rewards-program-how-to-maximize-your-savings-on-fuel-and-benefits-explained.html',
+        'articles/Complete-Guide-to-the-Albertsons-Gas-Rewards-Program.md': 'redirects/complete-guide-to-the-albertsons-gas-rewards-program-how-to-maximize-your-savings-on-fuel-and-benefits-explained.html',
+        'articles/Complete-Guide-to-the-Piggly-Wiggly-Gas-Rewards-Program.md': 'redirects/complete-guide-to-the-piggly-wiggly-gas-rewards-program-how-to-maximize-your-savings-on-fuel-and-benefits-explained.html',
+        'articles/Complete-Guide-to-Ingles-Markets-Fuel-Points-Program.md': 'redirects/complete-guide-to-ingles-markets-fuel-points-program-maximize-your-savings.html',
+        'articles/Complete-Guide-to-Lowes-Foods-Gas-Rewards-Program.md': 'redirects/complete-guide-to-lowes-foods-gas-rewards-program-maximize-your-fuel-savings.html',
+        'articles/Complete-Guide-to-the-Harris-Teeter-Fuel-Points-Program.md': 'redirects/complete-guide-to-the-harris-teeter-fuel-points-program-maximize-your-savings-on-fuel.html',
+        'articles/Complete-Guide-to-the-Fuel-Bucks-Program-by-Food-City.md': 'redirects/complete-guide-to-the-fuel-bucks-program-by-food-city-maximize-fuel-savings-with-every-grocery-trip.html',
+        'articles/Complete-Guide-to-the-myPerks-Program-by-Giant-Eagle.md': 'redirects/complete-guide-to-the-my-perks-program-by-giant-eagle-maximize-savings-on-groceries-and-fuel.html',
+        'articles/Complete-Guide-to-AdvantEdge-Rewards-Program-by-Price-Chopper.md': 'redirects/complete-guide-to-price-chopper-advant-edge-rewards-program-maximize-grocery-savings-and-gas-perks.html',
+        'articles/Complete-Guide-to-For-U-Rewards-Program-by-Shaws.md': 'redirects/complete-guide-to-for-utm-rewards-program-by-shaw-s-maximize-your-savings-and-benefits.html',
+        'articles/Complete-Guide-to-GasPoints-by-Tops-Markets.md': 'redirects/complete-guide-to-gas-points-by-tops-markets-triple-your-savings-on-groceries-and-fuel.html',
+        'articles/Complete-Guide-to-Pump-Perks-by-Shop-n-Save.md': 'redirects/complete-guide-to-pump-perks-by-shop-n-save-maximize-fuel-savings-and-get-more-value.html',
+        'articles/Complete-Guide-to-Fuel-Points-by-Pay-Less-Super Markets.md': 'redirects/complete-guide-to-fuel-points-by-pay-less-super-markets-maximize-fuel-savings-on-every-trip.html',
+        'articles/Complete-Guide-to-Hy-Vee-PERKS-Fuel-Saver-Program.md': 'redirects/complete-guide-to-hy-vee-perks-fuel-saver-program-maximize-fuel-savings-and-extra-perks.html',
+        'articles/Complete-Guide-to-My-Cub-Rewards-by-Cub-Foods.md': 'redirects/complete-guide-to-my-cub-rewards-by-cub-foods-maximize-fuel-savings-and-grocery-perks.html',
+        'articles/Complete-Guide-to-QFC-Fuel-Points-by-Quality-Food-Centers.md': 'redirects/complete-guide-to-qfc-fuel-points-by-quality-food-centers-save-big-on-fuel-with-effective-strategies.html',
+        'articles/Complete-Guide-to-Fred-Fuel-Program-by-Fred Meyer.md': 'redirects/complete-guide-to-fred-fuel-program-by-fred-meyer-maximize-your-fuel-savings-with-effective-strategies.html',
+        'articles/Complete-Guide-to-Frys-Fuel-Points-by-Frys-Food.md': 'redirects/complete-guide-to-fry-s-fuel-points-by-fry-s-food-maximize-fuel-savings-and-extra-perks-explained.html'
+    };
 
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
+    // Function to handle the redirect or markdown rendering
+    async function handleContent() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const path = urlParams.get('path');
+        
+        if (!path) {
+            document.getElementById('article-content').innerHTML = '<p>Article not found.</p>';
+            return;
+        }
 
-    // When the user clicks the button, open the modal 
-    btn.onclick = function() {
-      modal.style.display = "block";
+        // Check if this is an old link that needs redirecting
+        if (redirectMap[path]) {
+            window.location.replace(redirectMap[path]);
+            return;
+        }
+
+        // If it's a new article in the articles folder, render the markdown
+        if (path.startsWith('articles/') && path.endsWith('.md')) {
+            try {
+                const response = await fetch(path);
+                if (!response.ok) {
+                    throw new Error('File not found');
+                }
+                const markdown = await response.text();
+                
+                // Configure marked options
+                marked.setOptions({
+                    breaks: true,
+                    gfm: true,
+                    headerIds: true,
+                    mangle: false
+                });
+
+                // Render the markdown
+                const htmlContent = marked.parse(markdown);
+                
+                // Create a container for the content
+                const container = document.createElement('div');
+                container.className = 'markdown-content';
+                container.innerHTML = htmlContent;
+                
+                // Replace the article content
+                const articleContent = document.getElementById('article-content');
+                articleContent.innerHTML = '';
+                articleContent.appendChild(container);
+
+                // Extract and set the title
+                const titleMatch = markdown.match(/^# (.*)$/m);
+                if (titleMatch) {
+                    document.title = titleMatch[1];
+                }
+            } catch (error) {
+                console.error('Error fetching the markdown file:', error);
+                document.getElementById('article-content').innerHTML = '<p>Error loading article content.</p>';
+            }
+        } else {
+            document.getElementById('article-content').innerHTML = '<p>Invalid article path.</p>';
+        }
     }
 
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-
-    // Close the modal when the cancel button is clicked
-    document.querySelector(".cancel-button").onclick = function() {
-      modal.style.display = "none";
-    }
-    
+    // Execute when page loads
+    window.onload = handleContent;
   </script>
-  </body>
-  </html>
+</body>
+</html>

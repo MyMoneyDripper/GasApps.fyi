@@ -384,6 +384,7 @@
     </div>
     <hr>
     <div id="guides-container" class="row"></div>
+    <div id="external-guides-container" class="row"></div>
   </div>
 
   <!-- Modal -->
@@ -418,8 +419,13 @@
       .then(data => {
         const featuredContainer = document.getElementById('featured-container');
         const guidesContainer = document.getElementById('guides-container');
+        const externalGuidesContainer = document.getElementById('external-guides-container');
 
         data.forEach(article => {
+          const isExternal = article.path.startsWith('redirects/');
+          const articleLink = isExternal ? article.path : `article.html?path=${encodeURIComponent(article.path)}`;
+          const target = isExternal ? '_blank' : '_self';
+
           const card = `
             <div class="col-md-6">
               <div class="card mb-3">
@@ -429,7 +435,7 @@
                   </div>
                   <div class="col-md-7">
                     <div class="card-body">
-                      <h5 class="card-title"><a href="article.html?path=${encodeURIComponent(article.path)}">${article.title}</a></h5>
+                      <h5 class="card-title"><a href="${articleLink}" target="${target}">${article.title}</a></h5>
                       <p class="card-text">${article.intro}</p>
                       <p class="card-text"><small class="text-muted">Author: ${article.author}</small></p>
                       <p class="card-text"><small class="text-muted">Date: ${article.date}</small></p>
@@ -440,10 +446,12 @@
             </div>
           `;
 
-          if (article.featured) {
-            featuredContainer.innerHTML += card;
+          if (isExternal) {
+            if (externalGuidesContainer) externalGuidesContainer.innerHTML += card;
+          } else if (article.featured) {
+            if (featuredContainer) featuredContainer.innerHTML += card;
           } else {
-            guidesContainer.innerHTML += card;
+            if (guidesContainer) guidesContainer.innerHTML += card;
           }
         });
       });
